@@ -1,0 +1,620 @@
+{
+  "archetypes": {
+    "Burdened Ruler": {
+      "description": "High power, low warmth, high fatigue. Carries the weight of the world, struggles to delegate or rest.",
+      "color": "amber",
+      "icon": "crown",
+      "anchor_verses": [
+        {
+          "reference": "Matthew 11:28",
+          "text": "Come to me, all you who are weary and burdened, and I will give you rest.",
+          "whisper_tone": "Fenrir",
+          "prompt_context": "Focus on the weight of responsibility and the invitation to surrender control.",
+          "image_mood": "A heavy ornate crown resting on velvet, soft golden light breaking through dark clouds"
+        },
+        {
+          "reference": "Psalm 55:22",
+          "text": "Cast your burden on the Lord, and he will sustain you; he will never permit the righteous to be moved.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Address the need for trust and the promise of stability.",
+          "image_mood": "A stone fortress on a mountain, unmoved by storms, warm light from within"
+        },
+        {
+          "reference": "Isaiah 40:31",
+          "text": "But those who hope in the Lord will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Speak to exhaustion and the promise of renewed energy from divine source.",
+          "image_mood": "An eagle soaring above clouds at golden hour, vast peaceful sky"
+        },
+        {
+          "reference": "Exodus 18:18",
+          "text": "You and these people who come to you will only wear yourselves out. The work is too heavy for you; you cannot handle it alone.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Validate the impossibility of carrying everything alone, permission to delegate.",
+          "image_mood": "Hands releasing a heavy burden into light, weight dissolving into particles of gold"
+        },
+        {
+          "reference": "Psalm 68:19",
+          "text": "Praise be to the Lord, to God our Savior, who daily bears our burdens.",
+          "whisper_tone": "Puck",
+          "prompt_context": "Emphasize that God carries burdens daily, not just in crisis.",
+          "image_mood": "Gentle morning light through ancient windows, dust motes floating peacefully"
+        },
+        {
+          "reference": "1 Peter 5:7",
+          "text": "Cast all your anxiety on him because he cares for you.",
+          "whisper_tone": "Puck",
+          "prompt_context": "The reason for releasing control: you are deeply cared for.",
+          "image_mood": "A shepherd's hand reaching down with tender care, soft pastoral light"
+        },
+        {
+          "reference": "Psalm 46:10",
+          "text": "Be still, and know that I am God; I will be exalted among the nations, I will be exalted in the earth.",
+          "whisper_tone": "Fenrir",
+          "prompt_context": "Permission to stop striving; God handles the big picture.",
+          "image_mood": "A perfectly still lake reflecting mountains, absolute serenity, twilight"
+        },
+        {
+          "reference": "Jeremiah 31:25",
+          "text": "I will refresh the weary and satisfy the faint.",
+          "whisper_tone": "Puck",
+          "prompt_context": "Direct promise of refreshment to the exhausted leader.",
+          "image_mood": "Cool stream in a forest, morning mist, refreshing and renewing atmosphere"
+        },
+        {
+          "reference": "2 Corinthians 12:9",
+          "text": "My grace is sufficient for you, for my power is made perfect in weakness.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Reframe weakness as the place where divine power operates best.",
+          "image_mood": "Cracked vessel with brilliant light streaming through the breaks"
+        },
+        {
+          "reference": "Psalm 127:2",
+          "text": "In vain you rise early and stay up late, toiling for food to eat—for he grants sleep to those he loves.",
+          "whisper_tone": "Fenrir",
+          "prompt_context": "Challenge the lie that endless work equals worth; rest is a gift.",
+          "image_mood": "Peaceful bedroom bathed in moonlight, invitation to holy rest"
+        }
+      ]
+    },
+    "Lost Child": {
+      "description": "Low confidence, high anxiety, seeking external validation and direction. Feels unseen and uncertain of their path.",
+      "color": "sky",
+      "icon": "compass",
+      "anchor_verses": [
+        {
+          "reference": "Isaiah 41:10",
+          "text": "So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand.",
+          "whisper_tone": "Puck",
+          "prompt_context": "Focus on the presence of God and the promise of strength.",
+          "image_mood": "A guiding hand reaching through gentle mist, warm protective light"
+        },
+        {
+          "reference": "Psalm 139:14",
+          "text": "I praise you, for I am fearfully and wonderfully made. Wonderful are your works; my soul knows it very well.",
+          "whisper_tone": "Puck",
+          "prompt_context": "Focus on inherent worth and divine design.",
+          "image_mood": "Intricate sacred geometry forming from light, beautiful complexity"
+        },
+        {
+          "reference": "Jeremiah 29:11",
+          "text": "For I know the plans I have for you, declares the Lord, plans for welfare and not for evil, to give you a future and a hope.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Address uncertainty about the future with assurance of good plans.",
+          "image_mood": "A winding path through beautiful landscape leading to bright horizon"
+        },
+        {
+          "reference": "Psalm 23:4",
+          "text": "Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff, they comfort me.",
+          "whisper_tone": "Fenrir",
+          "prompt_context": "Acknowledge the darkness while emphasizing companionship through it.",
+          "image_mood": "Soft light illuminating a path through a gentle valley, not alone"
+        },
+        {
+          "reference": "Matthew 10:31",
+          "text": "So don't be afraid; you are worth more than many sparrows.",
+          "whisper_tone": "Puck",
+          "prompt_context": "Simple affirmation of extraordinary value in God's eyes.",
+          "image_mood": "A sparrow held gently in cupped hands, precious and protected"
+        },
+        {
+          "reference": "Psalm 32:8",
+          "text": "I will instruct you and teach you in the way you should go; I will counsel you with my loving eye on you.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Promise of guidance and attentive care.",
+          "image_mood": "Ancient map with a single golden path illuminated, compass rose glowing"
+        },
+        {
+          "reference": "Isaiah 43:1",
+          "text": "Fear not, for I have redeemed you; I have called you by name, you are mine.",
+          "whisper_tone": "Puck",
+          "prompt_context": "Personal belonging and identity rooted in divine relationship.",
+          "image_mood": "A name written in light among the stars, deeply personal and cosmic"
+        },
+        {
+          "reference": "Proverbs 3:5-6",
+          "text": "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Permission to not have all the answers; trust leads to clarity.",
+          "image_mood": "A tangled forest path that straightens into clear light ahead"
+        },
+        {
+          "reference": "Zephaniah 3:17",
+          "text": "The Lord your God is with you, the Mighty Warrior who saves. He will take great delight in you; in his love he will no longer rebuke you, but will rejoice over you with singing.",
+          "whisper_tone": "Puck",
+          "prompt_context": "God delights in you; you are a source of divine joy.",
+          "image_mood": "Warm embrace of light, like being wrapped in a song, joyful and safe"
+        },
+        {
+          "reference": "Romans 8:28",
+          "text": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Even confusion and wrong turns are woven into a good purpose.",
+          "image_mood": "Scattered threads weaving into a beautiful tapestry, chaos becoming order"
+        }
+      ]
+    },
+    "Wounded Healer": {
+      "description": "Deep empathy born from personal pain. Helps others while neglecting own wounds. Carries grief but channels it outward.",
+      "color": "rose",
+      "icon": "heart",
+      "anchor_verses": [
+        {
+          "reference": "2 Corinthians 1:4",
+          "text": "Who comforts us in all our troubles, so that we can comfort those in any trouble with the comfort we ourselves receive from God.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Your pain has purpose; it equips you to comfort others.",
+          "image_mood": "Healing light flowing from one heart to another, chain of comfort"
+        },
+        {
+          "reference": "Psalm 147:3",
+          "text": "He heals the brokenhearted and binds up their wounds.",
+          "whisper_tone": "Puck",
+          "prompt_context": "Your wounds are seen and being tended, even as you tend others.",
+          "image_mood": "Gentle hands binding a wound with golden light, tender care"
+        },
+        {
+          "reference": "Isaiah 53:5",
+          "text": "But he was pierced for our transgressions, he was crushed for our iniquities; the punishment that brought us peace was on him, and by his wounds we are healed.",
+          "whisper_tone": "Fenrir",
+          "prompt_context": "The ultimate wounded healer understands your path intimately.",
+          "image_mood": "Light streaming through wounds, beauty from brokenness, redemption"
+        },
+        {
+          "reference": "Matthew 11:29",
+          "text": "Take my yoke upon you and learn from me, for I am gentle and humble in heart, and you will find rest for your souls.",
+          "whisper_tone": "Fenrir",
+          "prompt_context": "Permission to rest, to receive instead of only give.",
+          "image_mood": "Two figures sharing a burden together, weight becoming light"
+        },
+        {
+          "reference": "Psalm 34:18",
+          "text": "The Lord is close to the brokenhearted and saves those who are crushed in spirit.",
+          "whisper_tone": "Puck",
+          "prompt_context": "In your brokenness, God draws nearest.",
+          "image_mood": "Warm presence surrounding a tender heart, closeness in pain"
+        },
+        {
+          "reference": "Galatians 6:2",
+          "text": "Carry each other's burdens, and in this way you will fulfill the law of Christ.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Let others carry your burden too; it's mutual.",
+          "image_mood": "Hands reaching toward each other, mutual support, community"
+        },
+        {
+          "reference": "Isaiah 61:1",
+          "text": "The Spirit of the Sovereign Lord is on me, because the Lord has anointed me to proclaim good news to the poor. He has sent me to bind up the brokenhearted.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Your calling to heal others is anointed and holy.",
+          "image_mood": "Anointing oil like liquid gold, sacred calling visualized"
+        },
+        {
+          "reference": "Revelation 21:4",
+          "text": "He will wipe every tear from their eyes. There will be no more death or mourning or crying or pain, for the old order of things has passed away.",
+          "whisper_tone": "Puck",
+          "prompt_context": "Your grief has an expiration date; wholeness is coming.",
+          "image_mood": "Dawn breaking over a new horizon, all tears dried, hope"
+        },
+        {
+          "reference": "Romans 12:15",
+          "text": "Rejoice with those who rejoice; mourn with those who mourn.",
+          "whisper_tone": "Puck",
+          "prompt_context": "Your empathy is a gift; feel without shame.",
+          "image_mood": "Two hearts beating in rhythm, deep connection, emotional resonance"
+        },
+        {
+          "reference": "1 Peter 4:10",
+          "text": "Each of you should use whatever gift you have received to serve others, as faithful stewards of God's grace in its various forms.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Your healing gift is divine stewardship; use it while also receiving.",
+          "image_mood": "Gifts flowing like water from a vessel, generous and abundant"
+        }
+      ]
+    },
+    "Silent Storm": {
+      "description": "Suppressed anger or grief beneath calm exterior. Holds in emotions to protect others. Internal turmoil hidden.",
+      "color": "slate",
+      "icon": "cloud-lightning",
+      "anchor_verses": [
+        {
+          "reference": "Psalm 62:8",
+          "text": "Trust in him at all times, you people; pour out your hearts to him, for God is our refuge.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Permission to pour out what's been held in; God can handle it.",
+          "image_mood": "Rain finally falling from heavy clouds, release and relief"
+        },
+        {
+          "reference": "Psalm 42:11",
+          "text": "Why, my soul, are you downcast? Why so disturbed within me? Put your hope in God, for I will yet praise him, my Savior and my God.",
+          "whisper_tone": "Fenrir",
+          "prompt_context": "Acknowledge the inner turmoil while pointing toward hope.",
+          "image_mood": "Turbulent waters beginning to still, storm passing into calm"
+        },
+        {
+          "reference": "Matthew 5:4",
+          "text": "Blessed are those who mourn, for they will be comforted.",
+          "whisper_tone": "Puck",
+          "prompt_context": "Mourning is not weakness; it leads to divine comfort.",
+          "image_mood": "Tears transforming into light, grief becoming blessing"
+        },
+        {
+          "reference": "Psalm 30:5",
+          "text": "Weeping may stay for the night, but rejoicing comes in the morning.",
+          "whisper_tone": "Puck",
+          "prompt_context": "The night season of grief is temporary; joy is approaching.",
+          "image_mood": "First rays of dawn after a long dark night, hope returning"
+        },
+        {
+          "reference": "Ecclesiastes 3:4",
+          "text": "A time to weep and a time to laugh, a time to mourn and a time to dance.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Seasons of grief are valid; suppression isn't required.",
+          "image_mood": "Four seasons in one landscape, natural rhythm of emotions"
+        },
+        {
+          "reference": "Psalm 56:8",
+          "text": "You keep track of all my sorrows. You have collected all my tears in your bottle. You have recorded each one in your book.",
+          "whisper_tone": "Puck",
+          "prompt_context": "Every suppressed tear is seen and valued by God.",
+          "image_mood": "Crystal vessel catching teardrops, each one precious and counted"
+        },
+        {
+          "reference": "Ephesians 4:26",
+          "text": "In your anger do not sin: Do not let the sun go down while you are still angry.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Anger is valid; it's the suppression that causes harm.",
+          "image_mood": "Healthy fire contained in a hearth, controlled but not extinguished"
+        },
+        {
+          "reference": "Lamentations 3:22-23",
+          "text": "Because of the Lord's great love we are not consumed, for his compassions never fail. They are new every morning; great is your faithfulness.",
+          "whisper_tone": "Fenrir",
+          "prompt_context": "You haven't been consumed by what you carry; mercy renews daily.",
+          "image_mood": "Fresh morning light washing over weathered stone, renewal"
+        },
+        {
+          "reference": "Psalm 139:23",
+          "text": "Search me, God, and know my heart; test me and know my anxious thoughts.",
+          "whisper_tone": "Fenrir",
+          "prompt_context": "Invitation to let God see what you've hidden from others.",
+          "image_mood": "Light gently illuminating hidden chambers of the heart"
+        },
+        {
+          "reference": "Isaiah 54:10",
+          "text": "Though the mountains be shaken and the hills be removed, yet my unfailing love for you will not be shaken nor my covenant of peace be removed.",
+          "whisper_tone": "Fenrir",
+          "prompt_context": "Even when everything inside feels unstable, divine love is unshakeable.",
+          "image_mood": "Mountains trembling but a calm center remaining, peace amidst chaos"
+        }
+      ]
+    },
+    "Anxious Achiever": {
+      "description": "Driven by fear of inadequacy. Success never feels enough. Compulsive striving masks deep insecurity.",
+      "color": "orange",
+      "icon": "trophy",
+      "anchor_verses": [
+        {
+          "reference": "Matthew 6:26",
+          "text": "Look at the birds of the air; they do not sow or reap or store away in barns, and yet your heavenly Father feeds them. Are you not much more valuable than they?",
+          "whisper_tone": "Puck",
+          "prompt_context": "Your worth isn't earned through achievement; it's inherent.",
+          "image_mood": "Birds flying freely without striving, provided for, peaceful"
+        },
+        {
+          "reference": "Philippians 4:6-7",
+          "text": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and minds.",
+          "whisper_tone": "Fenrir",
+          "prompt_context": "Trade anxiety for peace through surrender.",
+          "image_mood": "Armor of light surrounding a peaceful heart, protection from within"
+        },
+        {
+          "reference": "Psalm 46:1",
+          "text": "God is our refuge and strength, an ever-present help in trouble.",
+          "whisper_tone": "Kore",
+          "prompt_context": "You don't have to be your own refuge; strength is available.",
+          "image_mood": "Strong fortress with open doors, invitation to shelter"
+        },
+        {
+          "reference": "Matthew 6:34",
+          "text": "Therefore do not worry about tomorrow, for tomorrow will worry about itself. Each day has enough trouble of its own.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Permission to focus only on today; future striving isn't required.",
+          "image_mood": "Single day illuminated, future fading into gentle mist"
+        },
+        {
+          "reference": "Colossians 3:23-24",
+          "text": "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters, since you know that you will receive an inheritance from the Lord as a reward.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Reframe achievement as worship, not validation-seeking.",
+          "image_mood": "Work transformed into light offering, rising like incense"
+        },
+        {
+          "reference": "Psalm 37:7",
+          "text": "Be still before the Lord and wait patiently for him; do not fret when people succeed in their ways.",
+          "whisper_tone": "Fenrir",
+          "prompt_context": "Stop comparing; your timeline is unique and valid.",
+          "image_mood": "Single candle flame steady while others flicker, patient confidence"
+        },
+        {
+          "reference": "Isaiah 30:15",
+          "text": "In repentance and rest is your salvation, in quietness and trust is your strength.",
+          "whisper_tone": "Fenrir",
+          "prompt_context": "Strength comes from stillness, not striving.",
+          "image_mood": "Deep roots of an ancient tree, strength from being grounded"
+        },
+        {
+          "reference": "Ecclesiastes 4:6",
+          "text": "Better one handful with tranquility than two handfuls with toil and chasing after the wind.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Less with peace is better than more with anxiety.",
+          "image_mood": "One perfect pearl vs scattered jewels, simplicity over excess"
+        },
+        {
+          "reference": "1 John 3:20",
+          "text": "If our hearts condemn us, we know that God is greater than our hearts, and he knows everything.",
+          "whisper_tone": "Puck",
+          "prompt_context": "Your inner critic isn't the final judge; God sees truly.",
+          "image_mood": "Harsh shadows dissolving in greater light, truth over lies"
+        },
+        {
+          "reference": "Romans 8:1",
+          "text": "Therefore, there is now no condemnation for those who are in Christ Jesus.",
+          "whisper_tone": "Fenrir",
+          "prompt_context": "The striving can stop; condemnation is removed.",
+          "image_mood": "Chains falling away, complete freedom, weight lifted"
+        }
+      ]
+    },
+    "Faithful Doubter": {
+      "description": "Genuine faith mixed with honest questions. Struggles with belief but keeps seeking. Intellectual and spiritual tension.",
+      "color": "violet",
+      "icon": "help-circle",
+      "anchor_verses": [
+        {
+          "reference": "Mark 9:24",
+          "text": "Immediately the boy's father exclaimed, 'I do believe; help me overcome my unbelief!'",
+          "whisper_tone": "Kore",
+          "prompt_context": "Doubt and faith can coexist; honesty is welcomed.",
+          "image_mood": "Two hands reaching toward each other, faith and doubt meeting"
+        },
+        {
+          "reference": "James 1:5",
+          "text": "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Questions are welcomed; God gives wisdom without judgment.",
+          "image_mood": "Light pouring generously into an open mind, abundant wisdom"
+        },
+        {
+          "reference": "Psalm 13:1-2",
+          "text": "How long, Lord? Will you forget me forever? How long will you hide your face from me? How long must I wrestle with my thoughts and day after day have sorrow in my heart?",
+          "whisper_tone": "Fenrir",
+          "prompt_context": "Your questioning is biblical; the Psalms model honest doubt.",
+          "image_mood": "Ancient scroll with honest questions written, validated struggle"
+        },
+        {
+          "reference": "Hebrews 11:1",
+          "text": "Now faith is confidence in what we hope for and assurance about what we do not see.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Faith exists in uncertainty; that's its nature.",
+          "image_mood": "Bridge stretching into mist, steps appearing as you walk"
+        },
+        {
+          "reference": "John 20:29",
+          "text": "Then Jesus told him, 'Because you have seen me, you have believed; blessed are those who have not seen and yet have believed.'",
+          "whisper_tone": "Puck",
+          "prompt_context": "Faith without seeing is blessed, not naive.",
+          "image_mood": "Footprints leading through clouds, trusting the unseen path"
+        },
+        {
+          "reference": "Psalm 77:11-12",
+          "text": "I will remember the deeds of the Lord; yes, I will remember your miracles of long ago. I will consider all your works and meditate on all your mighty deeds.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Remember past faithfulness when present feels uncertain.",
+          "image_mood": "Ancient pillars of light marking past encounters, memory as anchor"
+        },
+        {
+          "reference": "Lamentations 3:21-22",
+          "text": "Yet this I call to mind and therefore I have hope: Because of the Lord's great love we are not consumed.",
+          "whisper_tone": "Fenrir",
+          "prompt_context": "Hope can be summoned even in despair through remembrance.",
+          "image_mood": "Single flame refusing to die in darkness, persistent hope"
+        },
+        {
+          "reference": "Matthew 7:7",
+          "text": "Ask and it will be given to you; seek and you will find; knock and the door will be opened to you.",
+          "whisper_tone": "Puck",
+          "prompt_context": "Seeking is the path; the answer comes through the search.",
+          "image_mood": "Many doors opening with light, seeking rewarded"
+        },
+        {
+          "reference": "Habakkuk 2:3",
+          "text": "For the revelation awaits an appointed time; it speaks of the end and will not prove false. Though it linger, wait for it; it will certainly come and will not delay.",
+          "whisper_tone": "Fenrir",
+          "prompt_context": "Answers may be delayed but are coming; wait with hope.",
+          "image_mood": "Hour glass with light instead of sand, patience as virtue"
+        },
+        {
+          "reference": "Isaiah 55:8-9",
+          "text": "For my thoughts are not your thoughts, neither are your ways my ways, declares the Lord. As the heavens are higher than the earth, so are my ways higher than your ways.",
+          "whisper_tone": "Fenrir",
+          "prompt_context": "Mystery isn't failure of faith; some things transcend understanding.",
+          "image_mood": "Vast cosmic expanse with tiny human figure, holy mystery"
+        }
+      ]
+    },
+    "Joyful Servant": {
+      "description": "Genuinely fulfilled in serving others. Healthy boundaries, genuine contentment. In a good season of life.",
+      "color": "emerald",
+      "icon": "sun",
+      "anchor_verses": [
+        {
+          "reference": "Psalm 16:11",
+          "text": "You make known to me the path of life; you will fill me with joy in your presence, with eternal pleasures at your right hand.",
+          "whisper_tone": "Puck",
+          "prompt_context": "Celebrate the joy; God is the source of your contentment.",
+          "image_mood": "Abundant garden in full bloom, overflow of life"
+        },
+        {
+          "reference": "Philippians 4:4",
+          "text": "Rejoice in the Lord always. I will say it again: Rejoice!",
+          "whisper_tone": "Puck",
+          "prompt_context": "Joy is commanded because it's possible; deepen into it.",
+          "image_mood": "Dancing light particles, celebration made visible"
+        },
+        {
+          "reference": "Nehemiah 8:10",
+          "text": "Do not grieve, for the joy of the Lord is your strength.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Your joy isn't fragile; it's sourced in divine strength.",
+          "image_mood": "Strong tree with golden leaves, joy as foundation"
+        },
+        {
+          "reference": "Matthew 25:21",
+          "text": "His master replied, 'Well done, good and faithful servant! You have been faithful with a few things; I will put you in charge of many things. Come and share your master's happiness!'",
+          "whisper_tone": "Kore",
+          "prompt_context": "Your faithful service is seen and celebrated.",
+          "image_mood": "Gates opening to greater light, invitation to more"
+        },
+        {
+          "reference": "Galatians 5:22-23",
+          "text": "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness, gentleness and self-control.",
+          "whisper_tone": "Puck",
+          "prompt_context": "The fruit in your life is evidence of the Spirit's work.",
+          "image_mood": "Tree heavy with glowing fruit, Spirit-filled abundance"
+        },
+        {
+          "reference": "Psalm 100:2",
+          "text": "Worship the Lord with gladness; come before him with joyful songs.",
+          "whisper_tone": "Puck",
+          "prompt_context": "Let your joy overflow into worship and thanksgiving.",
+          "image_mood": "Music notes rising as light, joyful worship ascending"
+        },
+        {
+          "reference": "John 15:11",
+          "text": "I have told you this so that my joy may be in you and that your joy may be complete.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Christ's joy in you makes your joy complete; receive it fully.",
+          "image_mood": "Cup overflowing with golden light, complete fullness"
+        },
+        {
+          "reference": "Psalm 126:3",
+          "text": "The Lord has done great things for us, and we are filled with joy.",
+          "whisper_tone": "Puck",
+          "prompt_context": "Remember the great things; let gratitude deepen joy.",
+          "image_mood": "Mountains moved, seas parted, great works remembered"
+        },
+        {
+          "reference": "Romans 15:13",
+          "text": "May the God of hope fill you with all joy and peace as you trust in him, so that you may overflow with hope by the power of the Holy Spirit.",
+          "whisper_tone": "Puck",
+          "prompt_context": "Overflow into hope; your joy is meant to spread.",
+          "image_mood": "Ripples of light spreading outward, joy overflowing"
+        },
+        {
+          "reference": "Ecclesiastes 3:12-13",
+          "text": "I know that there is nothing better for people than to be happy and to do good while they live. That each of them may eat and drink, and find satisfaction in all their toil—this is the gift of God.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Satisfaction in work is a divine gift; enjoy it without guilt.",
+          "image_mood": "Peaceful meal at sunset, simple satisfaction, holy ordinary"
+        }
+      ]
+    },
+    "Weary Warrior": {
+      "description": "Battle-worn from prolonged struggle. Not defeated but deeply tired. Needs refreshment and reassurance of victory.",
+      "color": "red",
+      "icon": "shield",
+      "anchor_verses": [
+        {
+          "reference": "Deuteronomy 31:6",
+          "text": "Be strong and courageous. Do not be afraid or terrified because of them, for the Lord your God goes with you; he will never leave you nor forsake you.",
+          "whisper_tone": "Fenrir",
+          "prompt_context": "You're not alone in the battle; divine presence accompanies you.",
+          "image_mood": "Warrior at rest with light standing guard, divine protection"
+        },
+        {
+          "reference": "Isaiah 40:29",
+          "text": "He gives strength to the weary and increases the power of the weak.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Strength is given, not summoned from empty reserves.",
+          "image_mood": "New light entering a dimming lamp, power renewed"
+        },
+        {
+          "reference": "Joshua 1:9",
+          "text": "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.",
+          "whisper_tone": "Fenrir",
+          "prompt_context": "Courage is commanded because backup is guaranteed.",
+          "image_mood": "Single soldier with vast army of light behind them"
+        },
+        {
+          "reference": "Psalm 18:2",
+          "text": "The Lord is my rock, my fortress and my deliverer; my God is my rock, in whom I take refuge, my shield and the horn of my salvation, my stronghold.",
+          "whisper_tone": "Fenrir",
+          "prompt_context": "Multiple layers of divine protection surround you.",
+          "image_mood": "Fortress within fortress, layers of light protection"
+        },
+        {
+          "reference": "Romans 8:37",
+          "text": "No, in all these things we are more than conquerors through him who loved us.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Victory is certain, not by your strength but through love.",
+          "image_mood": "Crown of light descending, victor receiving reward"
+        },
+        {
+          "reference": "Ephesians 6:10",
+          "text": "Finally, be strong in the Lord and in his mighty power.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Draw strength from the divine well, not your own.",
+          "image_mood": "Armor glowing with inner light, divine power source"
+        },
+        {
+          "reference": "2 Chronicles 20:17",
+          "text": "You will not have to fight this battle. Take up your positions; stand firm and see the deliverance the Lord will give you.",
+          "whisper_tone": "Fenrir",
+          "prompt_context": "Some battles require standing, not fighting; God fights.",
+          "image_mood": "Still figure while battle rages around, divine intervention"
+        },
+        {
+          "reference": "Psalm 144:1",
+          "text": "Praise be to the Lord my Rock, who trains my hands for war, my fingers for battle.",
+          "whisper_tone": "Kore",
+          "prompt_context": "Your battle skills are divine gifts; you've been prepared.",
+          "image_mood": "Hands glowing with power, equipped for purpose"
+        },
+        {
+          "reference": "Isaiah 41:13",
+          "text": "For I am the Lord your God who takes hold of your right hand and says to you, Do not fear; I will help you.",
+          "whisper_tone": "Puck",
+          "prompt_context": "God's hand holds yours; you're not fighting alone.",
+          "image_mood": "Two hands clasped, one human one divine light, together"
+        },
+        {
+          "reference": "2 Timothy 4:7",
+          "text": "I have fought the good fight, I have finished the race, I have kept the faith.",
+          "whisper_tone": "Fenrir",
+          "prompt_context": "The fight is good; the finish is coming; faith sustains.",
+          "image_mood": "Finish line glowing ahead, race nearly complete, victory assured"
+        }
+      ]
+    }
+  }
+}

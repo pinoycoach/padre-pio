@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(head:*)",
+      "Bash(npx tsc:*)",
+      "WebFetch(domain:ai.google.dev)",
+      "Bash(git push:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nSecurity audit fixes: remove key exposure, add timeouts, strict TS\n\n- Remove API key exposure from vite.config.ts \\(CRITICAL\\)\n- Add 30-60s request timeouts to all API calls\n- Add input validation and sanitization\n- Enable strict TypeScript mode\n- Fix all type errors \\(remove any types\\)\n- Install @types/react and @types/react-dom\n- Change server host from 0.0.0.0 to localhost\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd retry with exponential backoff for API reliability\n\n- geminiService: 3 retries with 2s/4s/8s backoff\n- librarianService: 3 retries with 1.5s/3s/6s backoff\n- Handles 503, rate limits, overloaded, busy errors\n- User-friendly error messages for common API issues\n\nThis should help with Vercel deployment where API\nmay be busier due to cold starts and shared limits.\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nSwitch text analysis to gemini-2.5-flash \\(less overloaded\\)\n\n- leonardoService: use gemini-2.5-flash for soul/face analysis\n- librarianService: use gemini-2.5-flash for text analysis\n- Keep gemini-2.5-flash-image only for actual image generation\n\nThe flash-image model is newer and more overloaded.\nStandard flash model should be more reliable for text tasks.\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nFix Inworld TTS for production - use direct API URL\n\n- Proxy only works in local dev \\(Vite server\\)\n- In production \\(Vercel\\), call api.inworld.ai directly\n- Auto-detect environment based on hostname\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nSwitch text models to gemini-3-flash-preview\n\n- leonardoService: gemini-3-flash-preview for face/soul analysis\n- librarianService: gemini-3-flash-preview for text analysis  \n- geminiService: keep gemini-2.5-flash-image for image generation\n\nTesting newer model for better availability.\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit:*)",
+      "Bash(git check-ignore:*)",
+      "Bash(gh api:*)",
+      "Bash(curl:*)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:still-small-voice.vercel.app)",
+      "Bash(git pull:*)",
+      "Bash(npx vercel:*)",
+      "Bash(node --check:*)",
+      "Bash(git fetch:*)",
+      "Bash(git checkout:*)",
+      "Bash(git merge:*)",
+      "Bash(git stash:*)",
+      "Bash(pnpm install:*)"
+    ]
+  }
+}
