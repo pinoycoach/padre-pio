@@ -302,7 +302,7 @@ Respond with valid JSON only in this exact format:
 
   // Validate archetype
   if (!Object.keys(vault.archetypes).includes(analysis.archetype)) {
-    analysis.archetype = 'Lost Child';
+    analysis.archetype = 'The Wandering Soul';
     analysis.confidence = Math.min(analysis.confidence, 60);
   }
 
@@ -340,7 +340,7 @@ High surprise (>80) + low joy = possible shock or trauma, consider crisis depth.
 
   // OPTIMIZED: Single API call combining all analysis
   const combinedPrompt = `
-You are a compassionate spiritual counselor analyzing this person's facial expression.
+You are a Catholic spiritual director in the tradition of Padre Pio, discerning the soul's condition through this person's facial expression.
 Perform a COMPREHENSIVE analysis covering all aspects in ONE response.
 
 ${userInput ? `The person said: "${userInput}"` : ''}
@@ -351,10 +351,10 @@ ${Object.entries(vault.archetypes).map(([name, data]) =>
 ).join('\n')}
 
 TEMPERAMENTS (choose one):
-- Sage: needs wisdom, eyes seeking/contemplative
-- Lover: needs comfort, soft/vulnerable expression
-- Warrior: needs courage, tension/determination
-- Child: needs rest, exhaustion/seeking safety
+- Sage: The Contemplative — seeking understanding, in the illuminative way, asks theological questions
+- Lover: The Beloved — seeking God's personal love, Marian tenderness, intimacy with the Father
+- Warrior: The Apostle — fighting spiritual battles, needs courage and the armor of God
+- Child: The Little One — overwhelmed, Thérèse's little way, needs the Father's arms
 
 Respond with valid JSON only:
 {
@@ -388,7 +388,7 @@ Respond with valid JSON only:
           { text: combinedPrompt }
         ],
         config: {
-          systemInstruction: "You are a compassionate spiritual counselor with deep insight into human emotion. Analyze with accuracy and kindness.",
+          systemInstruction: "You are a Catholic spiritual director trained in the tradition of Padre Pio, discerning the state of a soul through facial expression. Analyze with accuracy, mercy, and the eyes of faith.",
         }
       });
     },
@@ -423,8 +423,8 @@ Respond with valid JSON only:
 
   // Validate archetype
   if (!Object.keys(vault.archetypes).includes(combined.archetype)) {
-    console.warn(`[Leonardo] Invalid archetype "${combined.archetype}", defaulting to Lost Child`);
-    combined.archetype = 'Lost Child';
+    console.warn(`[Leonardo] Invalid archetype "${combined.archetype}", defaulting to The Wandering Soul`);
+    combined.archetype = 'The Wandering Soul';
   }
 
   // Build structured response from combined result
@@ -523,7 +523,7 @@ export async function analyzeTextDeepSoul(
     .join('\n');
 
   const combinedPrompt = `
-You are a compassionate spiritual counselor reading a written prayer request.
+You are a Catholic spiritual director in the tradition of Padre Pio, reading a written prayer request. Discern the soul's condition through vocabulary, tone, and what is unspoken.
 Analyze vocabulary, tone, sentence weight, and what is NOT said.
 ${statedFeeling ? `The person indicated they feel: "${statedFeeling}"` : ''}
 
@@ -541,10 +541,10 @@ ARCHETYPES (choose one):
 ${archetypeList}
 
 TEMPERAMENTS:
-- Sage: intellectual/questioning tone, seeking understanding or clarity
-- Lover: emotional, relational language, seeking comfort and reassurance
-- Warrior: determined or frustrated language, fighting something, seeking strength
-- Child: overwhelmed, simple sentences, seeking safety or permission to rest
+- Sage: The Contemplative — intellectual/theological language, seeking understanding, in the illuminative way
+- Lover: The Beloved — emotional, relational language, seeking God's personal love and Marian tenderness
+- Warrior: The Apostle — determined or frustrated language, fighting spiritual battles, needs armor of God
+- Child: The Little One — overwhelmed, simple sentences, Thérèse's little way, needs the Father's arms
 
 Respond with valid JSON only:
 {
@@ -574,7 +574,7 @@ Respond with valid JSON only:
       model: 'gemini-3-flash-preview',
       contents: combinedPrompt,
       config: {
-        systemInstruction: 'You are a compassionate spiritual counselor skilled in reading emotional subtext in written prayer requests. Look for what people carry beneath their words.',
+        systemInstruction: 'You are a Catholic spiritual director in the tradition of Padre Pio, reading a written prayer request. Discern the soul\'s condition through vocabulary, tone, and what is unspoken.',
         temperature: 0.2,
       },
     }),
@@ -590,8 +590,8 @@ Respond with valid JSON only:
   const combined = JSON.parse(jsonMatch[0]);
 
   if (!Object.keys(vault.archetypes).includes(combined.archetype)) {
-    console.warn(`[Leonardo-Text] Invalid archetype "${combined.archetype}", defaulting to Lost Child`);
-    combined.archetype = 'Lost Child';
+    console.warn(`[Leonardo-Text] Invalid archetype "${combined.archetype}", defaulting to The Wandering Soul`);
+    combined.archetype = 'The Wandering Soul';
   }
 
   const temperament: TemperamentAnalysis = {
@@ -699,7 +699,7 @@ Respond with valid JSON only in this exact format:
 
   const analysis = JSON.parse(jsonMatch[0]) as SoulAnalysis;
   if (!Object.keys(vault.archetypes).includes(analysis.archetype)) {
-    analysis.archetype = 'Lost Child';
+    analysis.archetype = 'The Wandering Soul';
   }
   return analysis;
 }

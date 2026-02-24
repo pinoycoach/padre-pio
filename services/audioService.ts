@@ -65,14 +65,14 @@ async function processAudioBrowserSide(audioBase64: string, mimeType: string): P
       Extract two things:
       1. Transcription: The literal words they said.
       2. Soul Analysis: Analyze their emotional tone and map it to one of these spiritual archetypes:
-         - Burdened Ruler
-         - Lost Child
-         - Wounded Healer
-         - Silent Storm
-         - Anxious Achiever
-         - Faithful Doubter
-         - Joyful Servant
-         - Weary Warrior
+         - The Penitent
+         - The Wandering Soul
+         - The Suffering Servant
+         - The Scrupulous Soul
+         - The Desolate Heart
+         - The Grieving Soul
+         - The Consoled Soul
+         - The Wounded Pilgrim
 
       Respond with valid JSON only:
       {

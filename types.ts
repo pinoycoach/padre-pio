@@ -17,16 +17,16 @@ export interface GenerationStep {
   status: 'pending' | 'active' | 'complete';
 }
 
-// NEXUS 3.5: Archetype types from Leonardo Engine
+// Archetype types — 8 soul-states Padre Pio directed in the confessional
 export type ArchetypeKey =
-  | 'Burdened Ruler'
-  | 'Lost Child'
-  | 'Wounded Healer'
-  | 'Silent Storm'
-  | 'Anxious Achiever'
-  | 'Faithful Doubter'
-  | 'Joyful Servant'
-  | 'Weary Warrior';
+  | 'The Penitent'
+  | 'The Wandering Soul'
+  | 'The Suffering Servant'
+  | 'The Scrupulous Soul'
+  | 'The Desolate Heart'
+  | 'The Grieving Soul'
+  | 'The Consoled Soul'
+  | 'The Wounded Pilgrim';
 
 export interface AnchorVerse {
   reference: string;

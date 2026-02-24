@@ -10,14 +10,14 @@ const SOUL_ANALYSIS_PROMPT = `
   Extract the spiritual archetype and emotional intensity.
   
   Possible Archetypes:
-  - Burdened Ruler
-  - Lost Child
-  - Wounded Healer
-  - Silent Storm
-  - Anxious Achiever
-  - Faithful Doubter
-  - Joyful Servant
-  - Weary Warrior
+  - The Penitent
+  - The Wandering Soul
+  - The Suffering Servant
+  - The Scrupulous Soul
+  - The Desolate Heart
+  - The Grieving Soul
+  - The Consoled Soul
+  - The Wounded Pilgrim
 
   Respond with valid JSON ONLY:
   {

@@ -800,9 +800,9 @@ const App: React.FC = () => {
         <div className="flex flex-col items-center justify-center gap-2 opacity-50">
           <div className="flex items-center gap-2">
             <Shield size={14} className="text-amber-200/50" />
-            <h1 className="font-['Cinzel'] text-[10px] tracking-[0.4em] font-bold uppercase text-amber-100">Still Small Voice</h1>
+            <h1 className="font-['Cinzel'] text-[10px] tracking-[0.4em] font-bold uppercase text-amber-100">Padre Pio</h1>
           </div>
-          <p className="text-[8px] uppercase tracking-[0.2em] text-amber-100/30">NEXUS 3.5</p>
+          <p className="text-[8px] uppercase tracking-[0.2em] text-amber-100/30">Capuchin · San Giovanni Rotondo</p>
         </div>
 
         {/* Global Error Message */}
@@ -1288,7 +1288,7 @@ const App: React.FC = () => {
               onClick={handleFinalize}
               className="w-full bg-amber-900/20 border border-amber-500/20 py-5 rounded-full uppercase tracking-[0.3em] text-[10px] font-bold text-amber-100 hover:bg-amber-900/40 transition-all flex items-center justify-center gap-3"
             >
-              <Volume2 size={14} /> Hear the Whisper
+              <Volume2 size={14} /> Hear His Word
             </button>
           </div>
         )}
@@ -1390,7 +1390,7 @@ const App: React.FC = () => {
                   }}
                   className="flex-[2] py-3 bg-amber-100 text-[#0a0a0a] rounded-full text-[9px] uppercase tracking-[0.2em] font-bold flex items-center justify-center gap-2 hover:bg-white transition-all shadow-lg active:scale-95"
                 >
-                  <Download size={11} /> Save Whisper
+                  <Download size={11} /> Save This Word
                 </button>
               </div>
             </div>

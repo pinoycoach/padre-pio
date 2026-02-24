@@ -22,15 +22,15 @@ const createArchetypeSVG = (gradientTop: string, gradientMid: string, gradientBo
 
 // Pre-generated archetype images - instant, no API calls
 const FALLBACK_IMAGES: Record<string, string> = {
-  'Weary Warrior': createArchetypeSVG('#1a1a2e', '#16213e', '#0f0f23', '\u2694', '#c9a227'),      // Sword - gold
-  'Lost Child': createArchetypeSVG('#1a2639', '#1f3a52', '#0d1b2a', '\u2727', '#87ceeb'),         // Star - sky blue
-  'Burdened Ruler': createArchetypeSVG('#2d1b2e', '#1a1625', '#0f0d13', '\u265b', '#daa520'),     // Crown - amber
-  'Wounded Healer': createArchetypeSVG('#1a2e1a', '#162116', '#0f1a0f', '\u2661', '#98d8aa'),     // Heart - soft green
-  'Silent Storm': createArchetypeSVG('#1e1e2e', '#252538', '#12121a', '\u26c5', '#a0a0c0'),       // Cloud - silver
-  'Anxious Achiever': createArchetypeSVG('#2e2a1a', '#38321a', '#1a1608', '\u2605', '#f4d03f'),   // Star - bright gold
-  'Faithful Doubter': createArchetypeSVG('#1a1a3e', '#1e1e4a', '#0a0a1e', '\u263e', '#b8c5d6'),   // Moon - soft blue
-  'Joyful Servant': createArchetypeSVG('#2e1a1a', '#3a1e1e', '#1a0f0f', '\u2600', '#ffb347'),     // Sun - warm orange
-  'default': createArchetypeSVG('#1a1a2e', '#16213e', '#0f0f23', '\u2728', '#ffd700'),            // Sparkles - gold
+  'The Penitent':          createArchetypeSVG('#2d1b0e', '#1a1008', '#0f0803', '\u2665', '#c9a227'),   // Heart - amber (candlelight)
+  'The Wandering Soul':    createArchetypeSVG('#0d1a2e', '#0f2035', '#07121f', '\u2736', '#87ceeb'),   // Star - sky blue
+  'The Suffering Servant': createArchetypeSVG('#1a0808', '#200a0a', '#0f0505', '\u271d', '#c0392b'),   // Cross - red
+  'The Scrupulous Soul':   createArchetypeSVG('#1a1030', '#15102a', '#0a0815', '\u262a', '#b8c5d6'),   // Symbol - violet/soft
+  'The Desolate Heart':    createArchetypeSVG('#151520', '#101015', '#08080d', '\u25cf', '#6b7280'),   // Circle - slate
+  'The Grieving Soul':     createArchetypeSVG('#2e0f1a', '#1e0b10', '#100507', '\u2740', '#e879a0'),   // Flower - rose
+  'The Consoled Soul':     createArchetypeSVG('#0f2e1a', '#0b1e10', '#051007', '\u2600', '#34d399'),   // Sun - emerald
+  'The Wounded Pilgrim':   createArchetypeSVG('#2e1a0a', '#1e1005', '#100a03', '\u2767', '#f97316'),   // Dagger/staff - orange
+  'default': createArchetypeSVG('#1a1a2e', '#16213e', '#0f0f23', '\u2728', '#ffd700'),                 // Sparkles - gold
 };
 
 /**
