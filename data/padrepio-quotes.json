@@ -1,0 +1,842 @@
+[
+  {
+    "id": "pp-001",
+    "text": "Pray, hope, and don't worry. Worry is useless. God is merciful and will hear your prayer.",
+    "source": "Letters to spiritual children",
+    "themes": ["trust", "prayer", "wandering", "scrupulous"],
+    "keywords": ["pray", "hope", "worry", "mercy", "prayer"]
+  },
+  {
+    "id": "pp-002",
+    "text": "Prayer is the best weapon we have; it is the key to God's heart.",
+    "source": "Letters to spiritual children",
+    "themes": ["prayer", "wounded-pilgrim"],
+    "keywords": ["prayer", "weapon", "God", "heart"]
+  },
+  {
+    "id": "pp-003",
+    "text": "The Cross is the only ladder by which we reach heaven.",
+    "source": "Letters to spiritual children",
+    "themes": ["suffering", "wounded-pilgrim"],
+    "keywords": ["cross", "suffering", "heaven", "ladder"]
+  },
+  {
+    "id": "pp-004",
+    "text": "Suffering is a gift of God, a gift that makes us most like Him.",
+    "source": "Letters to spiritual children",
+    "themes": ["suffering"],
+    "keywords": ["suffering", "gift", "God", "cross", "conformity"]
+  },
+  {
+    "id": "pp-005",
+    "text": "If God sends you many sufferings, it is a sign that He has great plans for you.",
+    "source": "Letters to spiritual children",
+    "themes": ["suffering", "trust"],
+    "keywords": ["suffering", "plans", "God", "purpose", "cross"]
+  },
+  {
+    "id": "pp-006",
+    "text": "Love Our Lady and make her loved.",
+    "source": "Common counsel to spiritual children",
+    "themes": ["consoled", "prayer"],
+    "keywords": ["Mary", "Our Lady", "love", "devotion"]
+  },
+  {
+    "id": "pp-007",
+    "text": "The Rosary is the weapon for these times.",
+    "source": "Letters to spiritual children",
+    "themes": ["prayer", "wounded-pilgrim"],
+    "keywords": ["rosary", "prayer", "Mary", "weapon", "times"]
+  },
+  {
+    "id": "pp-008",
+    "text": "Be careful, not meticulous. Do not torment yourself over past confessions.",
+    "source": "Direction of scrupulous souls",
+    "themes": ["scrupulous"],
+    "keywords": ["scrupulous", "confession", "peace", "meticulous", "careful"]
+  },
+  {
+    "id": "pp-009",
+    "text": "Once a sin is confessed, it is forgiven. Do not dig it up again.",
+    "source": "Direction of scrupulous souls",
+    "themes": ["scrupulous", "penitent"],
+    "keywords": ["confession", "forgiven", "sin", "peace", "past"]
+  },
+  {
+    "id": "pp-010",
+    "text": "God's mercy is greater than your wretchedness. Let this thought penetrate your spirit.",
+    "source": "Letters to spiritual children",
+    "themes": ["penitent", "scrupulous"],
+    "keywords": ["mercy", "God", "sin", "forgiveness", "wretchedness"]
+  },
+  {
+    "id": "pp-011",
+    "text": "Do not be discouraged if you have fallen again. Rise up quickly, return to God, and begin again.",
+    "source": "Letters to spiritual children",
+    "themes": ["penitent", "wounded-pilgrim"],
+    "keywords": ["fall", "rise", "return", "God", "sin", "discouragement"]
+  },
+  {
+    "id": "pp-012",
+    "text": "Abandon yourself completely to the arms of God, as a child abandons itself to its mother.",
+    "source": "Letters to spiritual children",
+    "themes": ["trust", "scrupulous", "wandering"],
+    "keywords": ["abandon", "God", "child", "trust", "arms", "surrender"]
+  },
+  {
+    "id": "pp-013",
+    "text": "Courage! In the spiritual life, he who does not advance, retreats.",
+    "source": "Letters to spiritual children",
+    "themes": ["wounded-pilgrim"],
+    "keywords": ["courage", "advance", "retreat", "spiritual life", "perseverance"]
+  },
+  {
+    "id": "pp-014",
+    "text": "Have great devotion to your guardian angel. He is always at your side.",
+    "source": "Letters to spiritual children",
+    "themes": ["prayer", "wandering", "desolate"],
+    "keywords": ["guardian angel", "devotion", "protection", "side", "always"]
+  },
+  {
+    "id": "pp-015",
+    "text": "Your guardian angel never leaves you, even when you have offended God. He watches over you always.",
+    "source": "Letters to spiritual children",
+    "themes": ["wandering", "desolate"],
+    "keywords": ["guardian angel", "protection", "sin", "watches", "always"]
+  },
+  {
+    "id": "pp-016",
+    "text": "When you cannot pray, let your guardian angel pray in your place.",
+    "source": "Letters to spiritual children",
+    "themes": ["desolate", "prayer"],
+    "keywords": ["guardian angel", "prayer", "dryness", "unable", "intercession"]
+  },
+  {
+    "id": "pp-017",
+    "text": "The Eucharist is the center of all our devotions and the source of all our joys.",
+    "source": "Letters and recorded conversations",
+    "themes": ["consoled", "prayer"],
+    "keywords": ["Eucharist", "Mass", "center", "joy", "devotion", "sacrament"]
+  },
+  {
+    "id": "pp-018",
+    "text": "Come to the altar with faith and love. Jesus is truly present there.",
+    "source": "Counsel to pilgrims",
+    "themes": ["consoled", "prayer"],
+    "keywords": ["Eucharist", "altar", "faith", "love", "presence", "Mass"]
+  },
+  {
+    "id": "pp-019",
+    "text": "Strive to progress each day in virtue. In the spiritual life, standing still is going backward.",
+    "source": "Letters to spiritual children",
+    "themes": ["wounded-pilgrim"],
+    "keywords": ["virtue", "progress", "spiritual life", "advance", "standing still"]
+  },
+  {
+    "id": "pp-020",
+    "text": "Let us always be on our guard against the first impulses of anger. They are our great enemies.",
+    "source": "Letters to spiritual children",
+    "themes": ["wounded-pilgrim", "scrupulous"],
+    "keywords": ["anger", "guard", "impulse", "enemy", "virtue"]
+  },
+  {
+    "id": "pp-021",
+    "text": "When you are afflicted, don't feel downcast. This trial is a sure sign that God loves you and wants to purify you.",
+    "source": "Letters to spiritual children",
+    "themes": ["suffering", "desolate"],
+    "keywords": ["affliction", "trial", "God", "love", "purify", "downcast"]
+  },
+  {
+    "id": "pp-022",
+    "text": "Do you know what God's will is? It is that we love him and that we make him loved by others.",
+    "source": "Letters to spiritual children",
+    "themes": ["consoled", "wandering"],
+    "keywords": ["God's will", "love", "others", "purpose", "mission"]
+  },
+  {
+    "id": "pp-023",
+    "text": "Through the study of books one seeks God; by meditation one finds him.",
+    "source": "Letters to spiritual children",
+    "themes": ["prayer", "desolate"],
+    "keywords": ["meditation", "prayer", "books", "study", "find God"]
+  },
+  {
+    "id": "pp-024",
+    "text": "Humility is truth. To know ourselves as we truly are, and to know God as He truly is — this is the beginning of holiness.",
+    "source": "Letters to spiritual children",
+    "themes": ["scrupulous", "penitent"],
+    "keywords": ["humility", "truth", "self-knowledge", "God", "holiness"]
+  },
+  {
+    "id": "pp-025",
+    "text": "Obedience is a virtue that unites us to God more than any other.",
+    "source": "Letters to spiritual children",
+    "themes": ["scrupulous", "wandering"],
+    "keywords": ["obedience", "virtue", "God", "unite", "confessor"]
+  },
+  {
+    "id": "pp-026",
+    "text": "Obey your spiritual director with the simplicity of a child. Do not discuss, do not examine. Obey.",
+    "source": "Direction of scrupulous souls",
+    "themes": ["scrupulous"],
+    "keywords": ["obedience", "spiritual director", "confessor", "child", "simplicity"]
+  },
+  {
+    "id": "pp-027",
+    "text": "I feel so much sorrow for you when you suffer, but I also feel joy, because suffering is a pledge of God's love.",
+    "source": "Letters to spiritual children",
+    "themes": ["suffering", "grieving"],
+    "keywords": ["sorrow", "suffering", "joy", "love", "God", "pledge"]
+  },
+  {
+    "id": "pp-028",
+    "text": "Whenever you are tempted, call upon Jesus, Mary, and your guardian angel. Don't go to battle alone.",
+    "source": "Letters to spiritual children",
+    "themes": ["wounded-pilgrim"],
+    "keywords": ["temptation", "Jesus", "Mary", "guardian angel", "alone", "battle"]
+  },
+  {
+    "id": "pp-029",
+    "text": "Never leave off doing good out of fear that it may not be valued. The eye of God never sleeps.",
+    "source": "Letters to spiritual children",
+    "themes": ["trust", "wounded-pilgrim"],
+    "keywords": ["good works", "fear", "God", "eye", "valued", "unseen"]
+  },
+  {
+    "id": "pp-030",
+    "text": "My past, O Lord, to Thy mercy; my present, to Thy love; my future, to Thy providence.",
+    "source": "Prayer composed by Padre Pio",
+    "themes": ["trust", "penitent", "wandering"],
+    "keywords": ["past", "mercy", "present", "love", "future", "providence", "prayer"]
+  },
+  {
+    "id": "pp-031",
+    "text": "Anxiety is useless. Trust in God, who takes care of everything. He never abandons those who love Him.",
+    "source": "Letters to spiritual children",
+    "themes": ["scrupulous", "trust", "wandering"],
+    "keywords": ["anxiety", "trust", "God", "abandon", "love", "care"]
+  },
+  {
+    "id": "pp-032",
+    "text": "Don't be discouraged at your own misery. Jesus knows what we are made of. He came for sinners.",
+    "source": "Letters to spiritual children",
+    "themes": ["penitent", "scrupulous"],
+    "keywords": ["discouraged", "misery", "Jesus", "sinners", "mercy"]
+  },
+  {
+    "id": "pp-033",
+    "text": "God permits trials only for our good. Welcome them as precious gifts.",
+    "source": "Letters to spiritual children",
+    "themes": ["suffering", "trust"],
+    "keywords": ["trials", "good", "gifts", "God", "suffering", "permit"]
+  },
+  {
+    "id": "pp-034",
+    "text": "Do not be troubled at the thought of past sins. God who is infinitely merciful has forgiven you.",
+    "source": "Letters to spiritual children",
+    "themes": ["penitent", "scrupulous"],
+    "keywords": ["past sins", "troubled", "God", "mercy", "forgiven"]
+  },
+  {
+    "id": "pp-035",
+    "text": "You would run no danger of getting lost if you kept your eyes fixed on Jesus.",
+    "source": "Letters to spiritual children",
+    "themes": ["wandering", "desolate"],
+    "keywords": ["lost", "Jesus", "eyes fixed", "danger", "focus"]
+  },
+  {
+    "id": "pp-036",
+    "text": "Darkness is not from God. But when you feel dark, pray all the more, and know that God is near.",
+    "source": "Letters to spiritual children",
+    "themes": ["desolate"],
+    "keywords": ["darkness", "God", "pray", "near", "aridity", "dark night"]
+  },
+  {
+    "id": "pp-037",
+    "text": "Spiritual aridity is not a sign of abandonment. It is often a sign of greater love.",
+    "source": "Letters to spiritual children",
+    "themes": ["desolate"],
+    "keywords": ["aridity", "dryness", "abandonment", "love", "sign", "dark night"]
+  },
+  {
+    "id": "pp-038",
+    "text": "When you don't feel like praying, pray all the more. That is the moment when prayer is most meritorious.",
+    "source": "Letters to spiritual children",
+    "themes": ["desolate", "prayer"],
+    "keywords": ["prayer", "dryness", "meritorious", "feeling", "persevere"]
+  },
+  {
+    "id": "pp-039",
+    "text": "The soul that truly loves God never asks for consolations. It is enough to be in God's will.",
+    "source": "Letters to spiritual children",
+    "themes": ["desolate", "trust"],
+    "keywords": ["consolation", "God's will", "love", "soul", "enough"]
+  },
+  {
+    "id": "pp-040",
+    "text": "Have patience with everyone, but especially with yourself.",
+    "source": "Letters to spiritual children",
+    "themes": ["scrupulous", "penitent"],
+    "keywords": ["patience", "self", "virtue", "forbearance"]
+  },
+  {
+    "id": "pp-041",
+    "text": "Keep hope. The darkest night has its dawn.",
+    "source": "Letters to spiritual children",
+    "themes": ["desolate", "grieving"],
+    "keywords": ["hope", "dark night", "dawn", "perseverance", "grief"]
+  },
+  {
+    "id": "pp-042",
+    "text": "Do not weep for the dead as those who have no hope. Paradise is real.",
+    "source": "Counsel on death and grief",
+    "themes": ["grieving"],
+    "keywords": ["death", "hope", "paradise", "grief", "resurrection", "weep"]
+  },
+  {
+    "id": "pp-043",
+    "text": "Death is not frightening for those who have lived for God. For them it is only a passage.",
+    "source": "Counsel on death and grief",
+    "themes": ["grieving"],
+    "keywords": ["death", "passage", "God", "heaven", "soul", "fear"]
+  },
+  {
+    "id": "pp-044",
+    "text": "The souls in paradise pray for us without ceasing. We are never alone.",
+    "source": "Counsel on death and grief",
+    "themes": ["grieving"],
+    "keywords": ["paradise", "souls", "prayer", "intercession", "alone", "saints"]
+  },
+  {
+    "id": "pp-045",
+    "text": "Those who are in paradise do not forget those they have loved. They pray for us before the throne of God.",
+    "source": "Counsel on death and grief",
+    "themes": ["grieving"],
+    "keywords": ["paradise", "love", "prayer", "intercession", "God", "memory"]
+  },
+  {
+    "id": "pp-046",
+    "text": "Grieve for those who die without God. For those who die in His grace, rejoice.",
+    "source": "Counsel on death and grief",
+    "themes": ["grieving"],
+    "keywords": ["grief", "death", "God", "grace", "rejoice", "faith"]
+  },
+  {
+    "id": "pp-047",
+    "text": "Be good. Do good. This is the whole purpose of our life on earth.",
+    "source": "Common counsel to pilgrims",
+    "themes": ["consoled", "wounded-pilgrim"],
+    "keywords": ["good", "purpose", "life", "virtue", "mission"]
+  },
+  {
+    "id": "pp-048",
+    "text": "If you knew how much God loves you, you would die of joy.",
+    "source": "Letters to spiritual children",
+    "themes": ["consoled"],
+    "keywords": ["God", "love", "joy", "consolation", "wonder"]
+  },
+  {
+    "id": "pp-049",
+    "text": "Thank God for everything. Gratitude opens the door of grace.",
+    "source": "Letters to spiritual children",
+    "themes": ["consoled"],
+    "keywords": ["gratitude", "God", "grace", "thank", "door"]
+  },
+  {
+    "id": "pp-050",
+    "text": "Rejoice always in the Lord! He has given you faith, which is greater than all the riches of this world.",
+    "source": "Letters to spiritual children",
+    "themes": ["consoled"],
+    "keywords": ["rejoice", "Lord", "faith", "riches", "gift", "joy"]
+  },
+  {
+    "id": "pp-051",
+    "text": "Where there is no love, put love, and you will find love.",
+    "source": "Letters to spiritual children",
+    "themes": ["consoled", "wounded-pilgrim"],
+    "keywords": ["love", "find", "put", "charity", "give"]
+  },
+  {
+    "id": "pp-052",
+    "text": "The life of a Christian is nothing but a perpetual struggle against self. No flowers strew his path.",
+    "source": "Letters to spiritual children",
+    "themes": ["wounded-pilgrim", "suffering"],
+    "keywords": ["Christian life", "struggle", "self", "cross", "path"]
+  },
+  {
+    "id": "pp-053",
+    "text": "Never lose heart even when persecuted, calumniated, misunderstood. God sees and judges.",
+    "source": "Letters to spiritual children",
+    "themes": ["wounded-pilgrim", "suffering"],
+    "keywords": ["persecution", "calumny", "misunderstood", "God", "judges", "heart"]
+  },
+  {
+    "id": "pp-054",
+    "text": "When you feel the weight of the cross most heavily, know that Jesus is closest to you.",
+    "source": "Letters to spiritual children",
+    "themes": ["suffering", "desolate"],
+    "keywords": ["cross", "weight", "Jesus", "closest", "suffering", "presence"]
+  },
+  {
+    "id": "pp-055",
+    "text": "The height of virtue is suffering endured with patience and love.",
+    "source": "Letters to spiritual children",
+    "themes": ["suffering"],
+    "keywords": ["virtue", "suffering", "patience", "love", "height", "endure"]
+  },
+  {
+    "id": "pp-056",
+    "text": "I would choose suffering over any consolation, because in suffering I find God more certainly.",
+    "source": "Letters to spiritual children",
+    "themes": ["suffering", "desolate"],
+    "keywords": ["suffering", "consolation", "God", "find", "choose", "cross"]
+  },
+  {
+    "id": "pp-057",
+    "text": "Do not forget that the way of the Cross is the only way to Paradise.",
+    "source": "Letters to spiritual children",
+    "themes": ["suffering", "wounded-pilgrim"],
+    "keywords": ["cross", "way", "paradise", "heaven", "suffering"]
+  },
+  {
+    "id": "pp-058",
+    "text": "Our Lady suffers when she sees us sad and lukewarm. Love her. She will lift you.",
+    "source": "Letters to spiritual children",
+    "themes": ["desolate", "wandering"],
+    "keywords": ["Mary", "Our Lady", "sad", "lukewarm", "love", "lift"]
+  },
+  {
+    "id": "pp-059",
+    "text": "Run to Our Lady in all your needs. She never refuses her children.",
+    "source": "Common counsel",
+    "themes": ["wandering", "suffering", "scrupulous"],
+    "keywords": ["Mary", "Our Lady", "needs", "children", "refuge", "help"]
+  },
+  {
+    "id": "pp-060",
+    "text": "Our Lady of Grace will obtain for you what you cannot obtain for yourself.",
+    "source": "Common counsel",
+    "themes": ["wandering", "trust"],
+    "keywords": ["Mary", "grace", "intercession", "obtain", "Our Lady"]
+  },
+  {
+    "id": "pp-061",
+    "text": "Don't be afraid of God. He is a father, not a judge, when you come to Him with humility.",
+    "source": "Letters to spiritual children",
+    "themes": ["penitent", "scrupulous"],
+    "keywords": ["afraid", "God", "father", "judge", "humility", "fear"]
+  },
+  {
+    "id": "pp-062",
+    "text": "God does not look at how great your sins are, but how great your sorrow is.",
+    "source": "Letters to spiritual children",
+    "themes": ["penitent"],
+    "keywords": ["sin", "sorrow", "contrition", "God", "mercy", "forgiveness"]
+  },
+  {
+    "id": "pp-063",
+    "text": "Go to confession as often as possible. It is the fountain of mercy.",
+    "source": "Direction of souls",
+    "themes": ["penitent"],
+    "keywords": ["confession", "mercy", "fountain", "sacrament", "often"]
+  },
+  {
+    "id": "pp-064",
+    "text": "I have never found anyone impossible to save. There is always a way back to God.",
+    "source": "Recorded statements from the confessional",
+    "themes": ["penitent", "wandering"],
+    "keywords": ["save", "impossible", "God", "way back", "hope", "return"]
+  },
+  {
+    "id": "pp-065",
+    "text": "Jesus suffered an agony of desolation in the garden so that no one need ever feel alone in their suffering.",
+    "source": "Meditations on the Passion",
+    "themes": ["desolate", "suffering"],
+    "keywords": ["Jesus", "desolation", "garden", "alone", "suffering", "agony"]
+  },
+  {
+    "id": "pp-066",
+    "text": "God speaks in the silence of the heart. Be still and listen.",
+    "source": "Letters to spiritual children",
+    "themes": ["prayer", "desolate"],
+    "keywords": ["God", "silence", "heart", "still", "listen", "presence"]
+  },
+  {
+    "id": "pp-067",
+    "text": "Do not worry about tomorrow. Abandon yourself to Providence, which will never let you down.",
+    "source": "Letters to spiritual children",
+    "themes": ["trust", "scrupulous", "wandering"],
+    "keywords": ["tomorrow", "Providence", "abandon", "worry", "God", "trust"]
+  },
+  {
+    "id": "pp-068",
+    "text": "If you are faithful in small things, God will give you the grace for great ones.",
+    "source": "Letters to spiritual children",
+    "themes": ["wounded-pilgrim", "trust"],
+    "keywords": ["faithful", "small things", "grace", "great things", "God"]
+  },
+  {
+    "id": "pp-069",
+    "text": "Those who love God always have joy in their hearts, even in the midst of suffering.",
+    "source": "Letters to spiritual children",
+    "themes": ["consoled", "suffering"],
+    "keywords": ["love", "God", "joy", "heart", "suffering", "peace"]
+  },
+  {
+    "id": "pp-070",
+    "text": "The measure of love is to love without measure.",
+    "source": "Letters to spiritual children",
+    "themes": ["consoled"],
+    "keywords": ["love", "measure", "without measure", "charity", "God"]
+  },
+  {
+    "id": "pp-071",
+    "text": "What does it matter that we suffer, if we love? What does it matter that we die, if we live?",
+    "source": "Letters to spiritual children",
+    "themes": ["suffering", "consoled"],
+    "keywords": ["suffering", "love", "death", "life", "eternal", "faith"]
+  },
+  {
+    "id": "pp-072",
+    "text": "Sanctity consists not in doing extraordinary things but in doing ordinary things extraordinarily well.",
+    "source": "Letters to spiritual children",
+    "themes": ["wounded-pilgrim", "consoled"],
+    "keywords": ["sanctity", "ordinary", "extraordinary", "holiness", "daily life"]
+  },
+  {
+    "id": "pp-073",
+    "text": "Work without prayer is noise. Prayer without work is empty. Unite them and you have holiness.",
+    "source": "Letters to spiritual children",
+    "themes": ["prayer", "wounded-pilgrim"],
+    "keywords": ["work", "prayer", "holiness", "unite", "noise", "empty"]
+  },
+  {
+    "id": "pp-074",
+    "text": "In your soul is a spark of divine love. Fan it with prayer and sacrifice, and it will become a flame.",
+    "source": "Letters to spiritual children",
+    "themes": ["consoled", "prayer"],
+    "keywords": ["soul", "spark", "divine love", "prayer", "sacrifice", "flame"]
+  },
+  {
+    "id": "pp-075",
+    "text": "Patience is the foundation of all virtues. Without it, nothing can be built.",
+    "source": "Letters to spiritual children",
+    "themes": ["wounded-pilgrim", "scrupulous"],
+    "keywords": ["patience", "virtue", "foundation", "build", "perseverance"]
+  },
+  {
+    "id": "pp-076",
+    "text": "Every temptation overcome is a step toward God. Do not be afraid of temptation.",
+    "source": "Letters to spiritual children",
+    "themes": ["wounded-pilgrim"],
+    "keywords": ["temptation", "overcome", "God", "step", "afraid", "trial"]
+  },
+  {
+    "id": "pp-077",
+    "text": "God loves you with a love that is jealous and eternal. You cannot fall out of His care.",
+    "source": "Letters to spiritual children",
+    "themes": ["wandering", "trust", "consoled"],
+    "keywords": ["God", "love", "jealous", "eternal", "care", "fall"]
+  },
+  {
+    "id": "pp-078",
+    "text": "When God asks something of us, He also gives us the grace to do it. Trust and begin.",
+    "source": "Letters to spiritual children",
+    "themes": ["trust", "wounded-pilgrim", "wandering"],
+    "keywords": ["God", "asks", "grace", "trust", "begin", "grace sufficient"]
+  },
+  {
+    "id": "pp-079",
+    "text": "Never judge your spiritual state by how you feel. Feelings are not faith.",
+    "source": "Letters to spiritual children",
+    "themes": ["desolate", "scrupulous"],
+    "keywords": ["feeling", "faith", "spiritual state", "judge", "consolation", "dryness"]
+  },
+  {
+    "id": "pp-080",
+    "text": "The greatest proof of love is suffering. Look at the Cross and be convinced.",
+    "source": "Letters to spiritual children",
+    "themes": ["suffering"],
+    "keywords": ["love", "suffering", "proof", "cross", "Jesus", "convinced"]
+  },
+  {
+    "id": "pp-081",
+    "text": "Satan is most powerless when we are humble. Humility breaks all his snares.",
+    "source": "Letters to spiritual children",
+    "themes": ["wounded-pilgrim"],
+    "keywords": ["humility", "Satan", "powerless", "snares", "virtue", "devil"]
+  },
+  {
+    "id": "pp-082",
+    "text": "You will never be alone in the dark if you hold the hand of Christ.",
+    "source": "Letters to spiritual children",
+    "themes": ["desolate", "wandering"],
+    "keywords": ["alone", "dark", "Christ", "hand", "hold", "presence"]
+  },
+  {
+    "id": "pp-083",
+    "text": "The wound that God inflicts is the wound that heals. Do not run from it.",
+    "source": "Letters to spiritual children",
+    "themes": ["suffering", "desolate"],
+    "keywords": ["wound", "heal", "God", "suffering", "inflict", "pain"]
+  },
+  {
+    "id": "pp-084",
+    "text": "Let the storm rage. The ship that carries Christ as its pilot cannot sink.",
+    "source": "Letters to spiritual children",
+    "themes": ["trust", "wounded-pilgrim"],
+    "keywords": ["storm", "ship", "Christ", "pilot", "sink", "trust", "faith"]
+  },
+  {
+    "id": "pp-085",
+    "text": "Go before the tabernacle and tell Jesus everything, as you would tell a friend.",
+    "source": "Common counsel",
+    "themes": ["prayer", "consoled"],
+    "keywords": ["tabernacle", "Jesus", "friend", "prayer", "Eucharist", "presence"]
+  },
+  {
+    "id": "pp-086",
+    "text": "In Communion, Jesus gives Himself entirely to you. Give yourself entirely to Him.",
+    "source": "Letters and counsel on the Eucharist",
+    "themes": ["consoled", "prayer"],
+    "keywords": ["Communion", "Jesus", "give", "entirely", "Eucharist", "love"]
+  },
+  {
+    "id": "pp-087",
+    "text": "If you are feeling far from God, do not ask who moved. Draw near again, and He will run to you.",
+    "source": "Letters to spiritual children",
+    "themes": ["wandering", "penitent", "desolate"],
+    "keywords": ["far from God", "draw near", "run", "return", "distance"]
+  },
+  {
+    "id": "pp-088",
+    "text": "Do not lose heart when you see your misery. Use it as a springboard for humility.",
+    "source": "Letters to spiritual children",
+    "themes": ["penitent", "scrupulous"],
+    "keywords": ["misery", "humility", "springboard", "heart", "weakness", "self-knowledge"]
+  },
+  {
+    "id": "pp-089",
+    "text": "Sorrow and suffering, well accepted and borne with love of God, are truly an inexhaustible source of merit.",
+    "source": "Letters to spiritual children",
+    "themes": ["suffering", "grieving"],
+    "keywords": ["sorrow", "suffering", "love", "merit", "accepted", "born"]
+  },
+  {
+    "id": "pp-090",
+    "text": "What is life? A brief passing. What is death? A passage to eternity.",
+    "source": "Meditations on death",
+    "themes": ["grieving"],
+    "keywords": ["life", "death", "eternity", "passing", "passage", "heaven"]
+  },
+  {
+    "id": "pp-091",
+    "text": "Even if all the world abandons you, God never will. This is the rock of your faith.",
+    "source": "Letters to spiritual children",
+    "themes": ["wandering", "desolate", "trust"],
+    "keywords": ["abandoned", "world", "God", "never", "rock", "faith"]
+  },
+  {
+    "id": "pp-092",
+    "text": "The angels envy us two things: the grace of suffering for God and the grace of receiving Holy Communion.",
+    "source": "Letters to spiritual children",
+    "themes": ["suffering", "consoled"],
+    "keywords": ["angels", "suffering", "Communion", "grace", "envy"]
+  },
+  {
+    "id": "pp-093",
+    "text": "A single act of pure love pleases God more than a thousand imperfect prayers.",
+    "source": "Letters to spiritual children",
+    "themes": ["prayer", "consoled"],
+    "keywords": ["love", "pure", "God", "prayer", "act", "pleases"]
+  },
+  {
+    "id": "pp-094",
+    "text": "Rise each morning as though it were the first morning of your spiritual life. Begin again always.",
+    "source": "Letters to spiritual children",
+    "themes": ["penitent", "wounded-pilgrim"],
+    "keywords": ["morning", "begin again", "spiritual life", "rise", "fresh start"]
+  },
+  {
+    "id": "pp-095",
+    "text": "Do not delay conversion. Life is short and uncertain. Tomorrow may be too late.",
+    "source": "Letters to spiritual children",
+    "themes": ["penitent", "wandering"],
+    "keywords": ["conversion", "delay", "short", "life", "uncertain", "return"]
+  },
+  {
+    "id": "pp-096",
+    "text": "How beautiful is the soul that is at peace with God! Nothing in the world compares.",
+    "source": "Letters to spiritual children",
+    "themes": ["consoled", "scrupulous"],
+    "keywords": ["soul", "peace", "God", "beautiful", "compare"]
+  },
+  {
+    "id": "pp-097",
+    "text": "Pray for those who persecute you. There is no greater power than the prayer of forgiveness.",
+    "source": "Letters to spiritual children",
+    "themes": ["wounded-pilgrim", "prayer"],
+    "keywords": ["persecute", "pray", "forgiveness", "enemy", "power", "prayer"]
+  },
+  {
+    "id": "pp-098",
+    "text": "Speak little. Act much. Pray always.",
+    "source": "Common counsel",
+    "themes": ["prayer", "wounded-pilgrim"],
+    "keywords": ["speak", "act", "pray", "always", "silence", "action"]
+  },
+  {
+    "id": "pp-099",
+    "text": "God has placed in your soul a yearning for Himself. Only He can satisfy it.",
+    "source": "Letters to spiritual children",
+    "themes": ["wandering", "desolate", "consoled"],
+    "keywords": ["soul", "yearning", "God", "satisfy", "only", "longing"]
+  },
+  {
+    "id": "pp-100",
+    "text": "Seek God in everything, in every moment, in every person you meet.",
+    "source": "Common counsel",
+    "themes": ["consoled", "prayer"],
+    "keywords": ["God", "seek", "everything", "moment", "person", "presence"]
+  },
+  {
+    "id": "pp-101",
+    "text": "The heart that weeps for its sins is already on the road to healing.",
+    "source": "Letters to spiritual children",
+    "themes": ["penitent"],
+    "keywords": ["weep", "sin", "healing", "contrition", "road", "sorrow"]
+  },
+  {
+    "id": "pp-102",
+    "text": "Our Lord does not test us beyond what we can bear. When the burden is heaviest, He carries most of it.",
+    "source": "Letters to spiritual children",
+    "themes": ["suffering", "trust"],
+    "keywords": ["test", "burden", "bear", "Lord", "carry", "heavy", "strength"]
+  },
+  {
+    "id": "pp-103",
+    "text": "When you cannot say beautiful prayers, say only: Jesus, mercy. That is enough.",
+    "source": "Letters to spiritual children",
+    "themes": ["desolate", "scrupulous", "prayer"],
+    "keywords": ["prayer", "Jesus", "mercy", "simple", "enough", "unable"]
+  },
+  {
+    "id": "pp-104",
+    "text": "I recommend to you especially the love of God and neighbor. Without these two loves, all virtue is built on sand.",
+    "source": "Letters to spiritual children",
+    "themes": ["consoled", "wounded-pilgrim"],
+    "keywords": ["love", "God", "neighbor", "virtue", "foundation", "sand"]
+  },
+  {
+    "id": "pp-105",
+    "text": "When you are in doubt about God's will, do what love demands. Love never goes wrong.",
+    "source": "Letters to spiritual children",
+    "themes": ["scrupulous", "wandering"],
+    "keywords": ["doubt", "God's will", "love", "demands", "wrong", "guide"]
+  },
+  {
+    "id": "pp-106",
+    "text": "Paradise is not a fairytale. I have held it in my hands every morning at the altar.",
+    "source": "Letters and recorded sayings",
+    "themes": ["consoled", "grieving"],
+    "keywords": ["paradise", "heaven", "Mass", "altar", "Eucharist", "real"]
+  },
+  {
+    "id": "pp-107",
+    "text": "Carry your cross with love. The cross is always the same size — but love can make it light.",
+    "source": "Letters to spiritual children",
+    "themes": ["suffering"],
+    "keywords": ["cross", "love", "light", "carry", "size", "suffering"]
+  },
+  {
+    "id": "pp-108",
+    "text": "If you knew how much I suffer with you in your pain, you would not weep alone.",
+    "source": "Letters to spiritual children",
+    "themes": ["suffering", "grieving"],
+    "keywords": ["suffer", "pain", "weep", "alone", "together", "compassion"]
+  },
+  {
+    "id": "pp-109",
+    "text": "A fervent prayer, though short, is worth more than a long one said without attention.",
+    "source": "Letters to spiritual children",
+    "themes": ["prayer", "desolate"],
+    "keywords": ["prayer", "fervent", "short", "long", "attention", "quality"]
+  },
+  {
+    "id": "pp-110",
+    "text": "God is everywhere, but He makes Himself felt most where there is humility and charity.",
+    "source": "Letters to spiritual children",
+    "themes": ["consoled", "prayer"],
+    "keywords": ["God", "everywhere", "humility", "charity", "felt", "presence"]
+  },
+  {
+    "id": "pp-111",
+    "text": "Every moment of life is a grace. Every breath is a gift. Open your eyes to this and you will never lose joy.",
+    "source": "Letters to spiritual children",
+    "themes": ["consoled"],
+    "keywords": ["moment", "grace", "gift", "breath", "joy", "gratitude"]
+  },
+  {
+    "id": "pp-112",
+    "text": "Even in the darkest moments of your life, remember: God has never been closer to you.",
+    "source": "Letters to spiritual children",
+    "themes": ["desolate", "suffering", "grieving"],
+    "keywords": ["dark", "God", "closer", "remember", "presence", "darkest"]
+  },
+  {
+    "id": "pp-113",
+    "text": "If God seems silent, it does not mean He is absent. He is working in ways you cannot see.",
+    "source": "Letters to spiritual children",
+    "themes": ["desolate", "trust"],
+    "keywords": ["silence", "God", "absent", "working", "hidden", "unseen"]
+  },
+  {
+    "id": "pp-114",
+    "text": "Do not worry if you feel nothing at prayer. God hears the movements of the will, not only the movements of feeling.",
+    "source": "Letters to spiritual children",
+    "themes": ["desolate", "scrupulous", "prayer"],
+    "keywords": ["feeling", "prayer", "will", "God", "hears", "movement", "dryness"]
+  },
+  {
+    "id": "pp-115",
+    "text": "Heaven is watching you. All the angels and saints are cheering you on. Do not give up now.",
+    "source": "Letters to spiritual children",
+    "themes": ["wounded-pilgrim"],
+    "keywords": ["heaven", "angels", "saints", "watching", "cheering", "give up"]
+  },
+  {
+    "id": "pp-116",
+    "text": "You are not alone in your battles. I am praying for you, and so is Our Lady.",
+    "source": "Letters to spiritual children",
+    "themes": ["wounded-pilgrim", "suffering"],
+    "keywords": ["alone", "battle", "prayer", "Our Lady", "intercession", "together"]
+  },
+  {
+    "id": "pp-117",
+    "text": "Be faithful to the little practices of piety. They are the hinges on which great graces swing.",
+    "source": "Letters to spiritual children",
+    "themes": ["prayer", "wounded-pilgrim"],
+    "keywords": ["faithful", "piety", "practices", "small", "graces", "hinges"]
+  },
+  {
+    "id": "pp-118",
+    "text": "God's love for you is not a reward for your virtue. It is the cause of your virtue.",
+    "source": "Letters to spiritual children",
+    "themes": ["consoled", "scrupulous"],
+    "keywords": ["God's love", "reward", "virtue", "cause", "grace", "unconditional"]
+  },
+  {
+    "id": "pp-119",
+    "text": "You cannot be good and not suffer. You cannot suffer well and not grow holy.",
+    "source": "Letters to spiritual children",
+    "themes": ["suffering", "wounded-pilgrim"],
+    "keywords": ["good", "suffer", "holy", "grow", "sanctity", "cross"]
+  },
+  {
+    "id": "pp-120",
+    "text": "I will be at the gates of Paradise, and I will not enter until the last of my spiritual children has entered before me.",
+    "source": "Recorded saying, San Giovanni Rotondo",
+    "themes": ["consoled", "trust"],
+    "keywords": ["paradise", "gates", "spiritual children", "last", "intercession", "love"]
+  }
+]

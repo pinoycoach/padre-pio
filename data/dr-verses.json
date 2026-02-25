@@ -1,0 +1,912 @@
+[
+  {
+    "id": "dr-001",
+    "reference": "Psalm 51:10",
+    "text": "Create a clean heart in me, O God: and renew a right spirit within my bowels.",
+    "themes": ["penitent"],
+    "keywords": ["clean heart", "renew", "spirit", "God", "confession", "contrition"]
+  },
+  {
+    "id": "dr-002",
+    "reference": "Psalm 51:17",
+    "text": "A sacrifice to God is an afflicted spirit: a contrite and humbled heart, O God, thou wilt not despise.",
+    "themes": ["penitent"],
+    "keywords": ["sacrifice", "afflicted", "contrite", "humbled", "heart", "God", "despise"]
+  },
+  {
+    "id": "dr-003",
+    "reference": "Isaiah 55:7",
+    "text": "Let the wicked forsake his way, and the unjust man his thoughts, and let him return to the Lord, and he will have mercy on him, and to our God: for he is bountiful to forgive.",
+    "themes": ["penitent", "wandering"],
+    "keywords": ["wicked", "forsake", "return", "Lord", "mercy", "forgive", "bountiful"]
+  },
+  {
+    "id": "dr-004",
+    "reference": "Joel 2:13",
+    "text": "Rend your hearts, and not your garments, and turn to the Lord your God: for he is gracious and merciful, patient and rich in mercy.",
+    "themes": ["penitent"],
+    "keywords": ["hearts", "rend", "turn", "Lord", "gracious", "merciful", "patient"]
+  },
+  {
+    "id": "dr-005",
+    "reference": "Hosea 14:2",
+    "text": "Return, O Israel, to the Lord thy God: for thou hast fallen down by thy iniquity. Take with you words, and return to the Lord, and say to him: Take away all iniquity.",
+    "themes": ["penitent", "wandering"],
+    "keywords": ["return", "God", "fallen", "iniquity", "words", "take away"]
+  },
+  {
+    "id": "dr-006",
+    "reference": "Jeremiah 3:22",
+    "text": "Return, you apostate children, and I will heal your apostasies. Behold we come to thee: for thou art the Lord our God.",
+    "themes": ["wandering", "penitent"],
+    "keywords": ["return", "children", "heal", "Lord", "God", "apostasy"]
+  },
+  {
+    "id": "dr-007",
+    "reference": "Luke 15:17-18",
+    "text": "And returning to himself, he said: How many hired servants in my father's house abound with bread, and I here perish with hunger? I will arise, and will go to my father.",
+    "themes": ["wandering", "penitent"],
+    "keywords": ["returning", "father", "bread", "arise", "go", "prodigal"]
+  },
+  {
+    "id": "dr-008",
+    "reference": "Psalm 25:7",
+    "text": "Remember not the sins of my youth, nor my transgressions. According to thy mercy remember thou me: for thy goodness' sake, O Lord.",
+    "themes": ["penitent", "scrupulous"],
+    "keywords": ["remember not", "sins", "youth", "mercy", "goodness", "Lord"]
+  },
+  {
+    "id": "dr-009",
+    "reference": "Psalm 79:8",
+    "text": "Remember not our former iniquities: let thy mercies speedily prevent us, for we are become exceeding poor.",
+    "themes": ["penitent"],
+    "keywords": ["remember not", "iniquities", "mercies", "poor", "prevent"]
+  },
+  {
+    "id": "dr-010",
+    "reference": "Ezekiel 18:22",
+    "text": "I will not remember any of his iniquities that he hath done: in his justice which he hath wrought, he shall live.",
+    "themes": ["penitent"],
+    "keywords": ["remember not", "iniquities", "justice", "live", "God", "forgive"]
+  },
+  {
+    "id": "dr-011",
+    "reference": "John 8:11",
+    "text": "Neither will I condemn thee. Go, and now sin no more.",
+    "themes": ["penitent"],
+    "keywords": ["condemn", "not", "go", "sin no more", "mercy", "Jesus", "woman"]
+  },
+  {
+    "id": "dr-012",
+    "reference": "Luke 7:47",
+    "text": "Many sins are forgiven her, because she hath loved much. But to whom less is forgiven, he loveth less.",
+    "themes": ["penitent", "consoled"],
+    "keywords": ["sins", "forgiven", "loved", "much", "love", "mercy"]
+  },
+  {
+    "id": "dr-013",
+    "reference": "Psalm 86:5",
+    "text": "For thou, O Lord, art sweet and mild: and plenteous in mercy to all that call upon thee.",
+    "themes": ["penitent", "scrupulous", "wandering"],
+    "keywords": ["sweet", "mild", "mercy", "plenteous", "call", "Lord"]
+  },
+  {
+    "id": "dr-014",
+    "reference": "Psalm 130:3-4",
+    "text": "If thou, O Lord, wilt mark iniquities: Lord, who shall stand it? For with thee there is merciful forgiveness: and by reason of thy law, I have waited for thee, O Lord.",
+    "themes": ["penitent", "scrupulous"],
+    "keywords": ["iniquities", "mark", "stand", "merciful", "forgiveness", "waited"]
+  },
+  {
+    "id": "dr-015",
+    "reference": "Wisdom 11:24",
+    "text": "For thou lovest all things that are, and hatest none of the things which thou hast made.",
+    "themes": ["wandering", "consoled"],
+    "keywords": ["love", "all things", "hate none", "made", "God", "creator"]
+  },
+  {
+    "id": "dr-016",
+    "reference": "Jeremiah 31:3",
+    "text": "I have loved thee with an everlasting love, therefore have I drawn thee, taking pity on thee.",
+    "themes": ["wandering", "consoled", "desolate"],
+    "keywords": ["everlasting love", "drawn", "pity", "God", "love", "eternal"]
+  },
+  {
+    "id": "dr-017",
+    "reference": "Isaiah 49:15-16",
+    "text": "Can a woman forget her infant, so as not to have pity on the son of her womb? And if she should forget, yet will not I forget thee. Behold, I have graven thee in my hands.",
+    "themes": ["wandering", "desolate", "consoled"],
+    "keywords": ["forget", "mother", "infant", "pity", "hands", "graven", "God", "love"]
+  },
+  {
+    "id": "dr-018",
+    "reference": "Psalm 27:10",
+    "text": "For my father and my mother have left me: but the Lord hath taken me up.",
+    "themes": ["wandering", "grieving"],
+    "keywords": ["father", "mother", "left", "Lord", "taken up", "abandoned", "comfort"]
+  },
+  {
+    "id": "dr-019",
+    "reference": "Deuteronomy 33:27",
+    "text": "The eternal God is thy refuge: and underneath are the everlasting arms.",
+    "themes": ["wandering", "trust", "suffering"],
+    "keywords": ["eternal God", "refuge", "everlasting arms", "underneath", "held"]
+  },
+  {
+    "id": "dr-020",
+    "reference": "Isaiah 40:11",
+    "text": "He shall feed his flock like a shepherd: he shall gather together the lambs with his arm, and shall take them up in his bosom.",
+    "themes": ["wandering"],
+    "keywords": ["shepherd", "lambs", "gather", "arm", "bosom", "feed", "flock"]
+  },
+  {
+    "id": "dr-021",
+    "reference": "John 10:27-28",
+    "text": "My sheep hear my voice: and I know them, and they follow me. And I give them life everlasting; and they shall not perish for ever.",
+    "themes": ["wandering", "consoled"],
+    "keywords": ["sheep", "voice", "know", "follow", "everlasting life", "perish not"]
+  },
+  {
+    "id": "dr-022",
+    "reference": "Psalm 119:176",
+    "text": "I have gone astray like a sheep that is lost: seek thy servant, because I have not forgotten thy commandments.",
+    "themes": ["wandering"],
+    "keywords": ["astray", "sheep", "lost", "seek", "servant", "forgotten not"]
+  },
+  {
+    "id": "dr-023",
+    "reference": "Luke 15:5",
+    "text": "And when he hath found it, lay it upon his shoulders, rejoicing.",
+    "themes": ["wandering"],
+    "keywords": ["found", "shoulders", "rejoicing", "shepherd", "carried", "lost sheep"]
+  },
+  {
+    "id": "dr-024",
+    "reference": "Psalm 37:24",
+    "text": "When he shall fall he shall not be bruised: for the Lord putteth his hand under him.",
+    "themes": ["wandering", "penitent", "wounded-pilgrim"],
+    "keywords": ["fall", "bruised", "Lord", "hand", "under", "support"]
+  },
+  {
+    "id": "dr-025",
+    "reference": "Psalm 94:9",
+    "text": "Who hath planted the ear, shall he not hear? or who hath made the eye, shall he not see?",
+    "themes": ["desolate", "trust"],
+    "keywords": ["planted", "ear", "hear", "eye", "see", "God", "listens"]
+  },
+  {
+    "id": "dr-026",
+    "reference": "1 Kings 19:12",
+    "text": "And after the fire a still small voice. And when Elias heard it, he covered his face with his mantle.",
+    "themes": ["desolate", "prayer"],
+    "keywords": ["still small voice", "fire", "Elias", "silence", "God", "quiet"]
+  },
+  {
+    "id": "dr-027",
+    "reference": "Psalm 62:2",
+    "text": "For thee my soul hath thirsted; for thee my flesh, O how many ways! In a desert land, and where there is no way, and no water.",
+    "themes": ["desolate"],
+    "keywords": ["thirst", "soul", "desert", "no water", "no way", "longing", "aridity"]
+  },
+  {
+    "id": "dr-028",
+    "reference": "Psalm 62:9",
+    "text": "My soul hath stuck close to thee: thy right hand hath received me.",
+    "themes": ["desolate", "consoled"],
+    "keywords": ["soul", "stuck", "close", "God", "right hand", "received", "cling"]
+  },
+  {
+    "id": "dr-029",
+    "reference": "Psalm 84:3",
+    "text": "My heart and my flesh have rejoiced in the living God.",
+    "themes": ["consoled", "desolate"],
+    "keywords": ["heart", "flesh", "rejoiced", "living God", "joy", "whole person"]
+  },
+  {
+    "id": "dr-030",
+    "reference": "Lamentations 3:28-29",
+    "text": "He shall sit solitary and hold his peace: because he hath taken it up upon himself. He shall put his mouth in the dust, if so be there may be hope.",
+    "themes": ["desolate", "suffering"],
+    "keywords": ["solitary", "silence", "dust", "hope", "wait", "desolation", "persevere"]
+  },
+  {
+    "id": "dr-031",
+    "reference": "Lamentations 3:31-33",
+    "text": "For the Lord will not cast off for ever. For if he hath cast off, he will also have mercy, according to the multitude of his mercies. For he hath not willingly afflicted, nor cast off the children of men.",
+    "themes": ["desolate"],
+    "keywords": ["cast off", "mercy", "afflict", "willingly", "children", "Lord", "not forever"]
+  },
+  {
+    "id": "dr-032",
+    "reference": "Isaiah 54:7-8",
+    "text": "For a small moment have I forsaken thee, but with great mercies will I gather thee. In a moment of indignation have I hid my face a little while from thee, but with everlasting kindness have I had mercy on thee.",
+    "themes": ["desolate"],
+    "keywords": ["forsaken", "small moment", "mercy", "gather", "hid face", "everlasting kindness"]
+  },
+  {
+    "id": "dr-033",
+    "reference": "Isaiah 43:4",
+    "text": "Since thou becamest honourable in my eyes, thou art glorious: I have loved thee, and I will give men for thee, and people for thy life.",
+    "themes": ["desolate", "consoled", "wandering"],
+    "keywords": ["honourable", "glorious", "loved", "worth", "precious", "God", "eyes"]
+  },
+  {
+    "id": "dr-034",
+    "reference": "Revelation 3:20",
+    "text": "Behold, I stand at the gate, and knock. If any man shall hear my voice, and open to me the door, I will come in to him, and will sup with him, and he with me.",
+    "themes": ["desolate", "wandering", "consoled"],
+    "keywords": ["gate", "knock", "voice", "open", "come in", "supper", "Jesus", "invitation"]
+  },
+  {
+    "id": "dr-035",
+    "reference": "Psalm 17:7",
+    "text": "Show forth thy wonderful mercies; thou who savest them that trust in thee.",
+    "themes": ["trust", "desolate"],
+    "keywords": ["mercies", "wonderful", "trust", "save", "show forth"]
+  },
+  {
+    "id": "dr-036",
+    "reference": "Psalm 91:1-2",
+    "text": "He that dwelleth in the aid of the most High, shall abide under the protection of the God of Jacob. He shall say to the Lord: Thou art my protector, and my refuge: my God, in him will I trust.",
+    "themes": ["trust", "suffering", "wounded-pilgrim"],
+    "keywords": ["dwelleth", "aid", "protection", "refuge", "trust", "protector", "God"]
+  },
+  {
+    "id": "dr-037",
+    "reference": "Psalm 91:11",
+    "text": "For he hath given his angels charge over thee; to keep thee in all thy ways.",
+    "themes": ["trust", "wandering"],
+    "keywords": ["angels", "charge", "keep", "ways", "protection", "guardian angel"]
+  },
+  {
+    "id": "dr-038",
+    "reference": "Psalm 112:7",
+    "text": "Who raiseth up the needy from the earth, and lifteth up the poor from the dunghill.",
+    "themes": ["penitent", "suffering", "wandering"],
+    "keywords": ["raises", "needy", "earth", "lifts", "poor", "God", "up from below"]
+  },
+  {
+    "id": "dr-039",
+    "reference": "Sirach 2:11",
+    "text": "For the Lord is compassionate and merciful, and forgiveth sins in the time of tribulation, and he is a protector to all that seek him in truth.",
+    "themes": ["penitent", "suffering", "trust"],
+    "keywords": ["compassionate", "merciful", "forgives", "tribulation", "protector", "seek", "truth"]
+  },
+  {
+    "id": "dr-040",
+    "reference": "Sirach 2:18",
+    "text": "They that fear the Lord will not be incredulous to his word: and they that love him, will keep his way.",
+    "themes": ["trust", "wounded-pilgrim"],
+    "keywords": ["fear the Lord", "word", "love", "keep", "way", "faith", "trust"]
+  },
+  {
+    "id": "dr-041",
+    "reference": "Romans 5:8",
+    "text": "But God commendeth his charity towards us; because when as yet we were sinners, according to the time, Christ died for us.",
+    "themes": ["penitent", "consoled"],
+    "keywords": ["charity", "sinners", "Christ died", "while", "love", "God"]
+  },
+  {
+    "id": "dr-042",
+    "reference": "1 John 4:10",
+    "text": "In this is charity: not as though we had loved God, but because he hath first loved us, and sent his Son to be a propitiation for our sins.",
+    "themes": ["penitent", "consoled"],
+    "keywords": ["charity", "God first loved", "Son", "propitiation", "sins", "love"]
+  },
+  {
+    "id": "dr-043",
+    "reference": "1 John 4:16",
+    "text": "And we have known, and have believed the charity, which God hath to us. God is charity: and he that abideth in charity, abideth in God, and God in him.",
+    "themes": ["consoled", "prayer"],
+    "keywords": ["charity", "God", "abide", "love", "believed", "in God", "in him"]
+  },
+  {
+    "id": "dr-044",
+    "reference": "Romans 8:26",
+    "text": "Likewise the Spirit also helpeth our infirmity. For we know not what we should pray for as we ought; but the Spirit himself asketh for us with unspeakable groanings.",
+    "themes": ["desolate", "prayer"],
+    "keywords": ["Spirit", "helps", "infirmity", "pray", "not know", "groanings", "intercedes"]
+  },
+  {
+    "id": "dr-045",
+    "reference": "Hebrews 4:15-16",
+    "text": "For we have not a high priest, who can not have compassion on our infirmities; but one tempted in all things like as we are, without sin. Let us go therefore with confidence to the throne of grace: that we may obtain mercy, and find grace in seasonable aid.",
+    "themes": ["desolate", "suffering", "scrupulous"],
+    "keywords": ["compassion", "infirmities", "tempted", "confidence", "throne", "mercy", "grace"]
+  },
+  {
+    "id": "dr-046",
+    "reference": "Hebrews 12:2",
+    "text": "Looking on Jesus, the author and finisher of faith, who having joy set before him, endured the cross, despising the shame.",
+    "themes": ["suffering", "wounded-pilgrim"],
+    "keywords": ["Jesus", "author", "faith", "joy", "cross", "endured", "shame", "look"]
+  },
+  {
+    "id": "dr-047",
+    "reference": "James 1:12",
+    "text": "Blessed is the man that endureth temptation; for when he hath been proved, he shall receive the crown of life, which God hath promised to them that love him.",
+    "themes": ["wounded-pilgrim", "suffering"],
+    "keywords": ["blessed", "endure", "temptation", "proved", "crown", "life", "love God"]
+  },
+  {
+    "id": "dr-048",
+    "reference": "James 4:8",
+    "text": "Draw nigh to God, and he will draw nigh to you. Cleanse your hands, ye sinners: and purify your hearts, ye double minded.",
+    "themes": ["penitent", "wandering"],
+    "keywords": ["draw nigh", "God", "cleanse", "sinners", "purify", "hearts", "double minded"]
+  },
+  {
+    "id": "dr-049",
+    "reference": "1 Peter 2:24-25",
+    "text": "Who his own self bore our sins in his body upon the tree: that we, being dead to sins, should live to justice: by whose stripes you were healed. For you were as sheep going astray; but you are now converted to the shepherd and bishop of your souls.",
+    "themes": ["suffering", "penitent", "wandering"],
+    "keywords": ["sins", "bore", "tree", "healed", "stripes", "astray", "converted", "shepherd"]
+  },
+  {
+    "id": "dr-050",
+    "reference": "2 Peter 3:9",
+    "text": "The Lord delayeth not his promise, as some imagine, but dealeth patiently for your sake, not willing that any should perish, but that all should return to penance.",
+    "themes": ["wandering", "penitent"],
+    "keywords": ["Lord", "patient", "perish not", "return", "penance", "all", "willing"]
+  },
+  {
+    "id": "dr-051",
+    "reference": "Psalm 73:26",
+    "text": "For my heart and my flesh have fainted away: thou art the God of my heart, and the God that is my portion for ever.",
+    "themes": ["desolate", "grieving"],
+    "keywords": ["heart", "flesh", "fainted", "God", "portion", "ever", "only"]
+  },
+  {
+    "id": "dr-052",
+    "reference": "Psalm 143:7",
+    "text": "Hear me speedily, O Lord: my spirit hath fainted away. Turn not away thy face from me, lest I be like unto them that go down into the pit.",
+    "themes": ["desolate", "grieving"],
+    "keywords": ["fainted", "spirit", "Lord", "face", "turn not away", "pit", "hear"]
+  },
+  {
+    "id": "dr-053",
+    "reference": "Tobit 3:1",
+    "text": "Then Tobias sighed, and began to pray with tears, saying: Thou art just, O Lord, and all thy judgments are just, and all thy ways mercy, and truth, and judgment.",
+    "themes": ["grieving", "suffering", "desolate"],
+    "keywords": ["sighed", "prayer", "tears", "just", "Lord", "mercy", "truth"]
+  },
+  {
+    "id": "dr-054",
+    "reference": "Judith 9:4",
+    "text": "Thou art God of the humble, the helper of the oppressed, the upholder of the weak, the protector of the forsaken, the saviour of them that are without hope.",
+    "themes": ["grieving", "suffering", "wandering"],
+    "keywords": ["humble", "oppressed", "weak", "forsaken", "hope", "God", "protector"]
+  },
+  {
+    "id": "dr-055",
+    "reference": "2 Corinthians 7:10",
+    "text": "For the sorrow that is according to God worketh penance, steadfast unto salvation; but the sorrow of the world worketh death.",
+    "themes": ["penitent", "grieving"],
+    "keywords": ["sorrow", "God", "penance", "salvation", "world", "death", "contrition"]
+  },
+  {
+    "id": "dr-056",
+    "reference": "Psalm 6:8-9",
+    "text": "My eye is troubled through indignation: I have grown old amongst all my enemies. Depart from me, all ye workers of iniquity: for the Lord hath heard the voice of my weeping.",
+    "themes": ["grieving", "suffering"],
+    "keywords": ["weeping", "enemy", "Lord heard", "voice", "troubled", "iniquity"]
+  },
+  {
+    "id": "dr-057",
+    "reference": "Isaiah 61:3",
+    "text": "To give to the mourners of Sion beauty for ashes, the oil of joy for mourning, a garment of praise for the spirit of grief.",
+    "themes": ["grieving"],
+    "keywords": ["mourners", "beauty", "ashes", "joy", "mourning", "praise", "grief", "garment"]
+  },
+  {
+    "id": "dr-058",
+    "reference": "Ecclesiasticus 38:23",
+    "text": "Remember my judgment: for thine also shall be so: yesterday for me, and to day for thee.",
+    "themes": ["grieving"],
+    "keywords": ["judgment", "yesterday", "today", "death", "mortality", "remember"]
+  },
+  {
+    "id": "dr-059",
+    "reference": "Job 1:21",
+    "text": "The Lord gave, and the Lord hath taken away: as it hath pleased the Lord so is it done: blessed be the name of the Lord.",
+    "themes": ["grieving", "trust"],
+    "keywords": ["Lord gave", "taken away", "pleased", "blessed", "name", "Job", "acceptance"]
+  },
+  {
+    "id": "dr-060",
+    "reference": "Job 19:25-26",
+    "text": "For I know that my Redeemer liveth, and in the last day I shall rise out of the earth. And I shall be clothed again with my skin, and in my flesh I shall see my God.",
+    "themes": ["grieving"],
+    "keywords": ["Redeemer", "lives", "last day", "rise", "flesh", "see God", "resurrection"]
+  },
+  {
+    "id": "dr-061",
+    "reference": "Wisdom 3:1-3",
+    "text": "But the souls of the just are in the hand of God, and the torment of death shall not touch them. In the sight of the unwise they seemed to die: and their departure was taken for misery. But they are in peace.",
+    "themes": ["grieving"],
+    "keywords": ["just", "hand of God", "death", "peace", "departure", "misery seeming"]
+  },
+  {
+    "id": "dr-062",
+    "reference": "Wisdom 4:14",
+    "text": "For his soul pleased God: therefore he hastened to bring him out of the midst of iniquities.",
+    "themes": ["grieving"],
+    "keywords": ["soul", "pleased God", "hastened", "bring out", "iniquities", "early death"]
+  },
+  {
+    "id": "dr-063",
+    "reference": "Philippians 1:21",
+    "text": "For to me, to live is Christ: and to die is gain.",
+    "themes": ["grieving", "consoled", "suffering"],
+    "keywords": ["live", "Christ", "die", "gain", "Paul", "death", "paradise"]
+  },
+  {
+    "id": "dr-064",
+    "reference": "1 Corinthians 15:55",
+    "text": "O death, where is thy victory? O death, where is thy sting?",
+    "themes": ["grieving"],
+    "keywords": ["death", "victory", "sting", "overcome", "resurrection", "triumph"]
+  },
+  {
+    "id": "dr-065",
+    "reference": "Psalm 23:6",
+    "text": "And I shall dwell in the house of the Lord unto length of days.",
+    "themes": ["consoled", "grieving"],
+    "keywords": ["dwell", "house of the Lord", "length of days", "forever", "eternal"]
+  },
+  {
+    "id": "dr-066",
+    "reference": "John 6:35",
+    "text": "And Jesus said to them: I am the bread of life: he that cometh to me shall not hunger: and he that believeth in me shall never thirst.",
+    "themes": ["consoled", "prayer"],
+    "keywords": ["bread of life", "hunger", "thirst", "Jesus", "Eucharist", "come", "believe"]
+  },
+  {
+    "id": "dr-067",
+    "reference": "John 6:51",
+    "text": "I am the living bread which came down from heaven. If any man eat of this bread, he shall live for ever; and the bread that I will give, is my flesh, for the life of the world.",
+    "themes": ["consoled", "prayer"],
+    "keywords": ["living bread", "heaven", "eat", "live for ever", "flesh", "Eucharist"]
+  },
+  {
+    "id": "dr-068",
+    "reference": "Psalm 23:5",
+    "text": "Thou hast prepared a table before me against them that afflict me. Thou hast anointed my head with oil; and my chalice which inebriateth me, how goodly is it!",
+    "themes": ["consoled", "suffering"],
+    "keywords": ["table", "enemies", "anointed", "oil", "chalice", "goodly", "abundance"]
+  },
+  {
+    "id": "dr-069",
+    "reference": "Isaiah 58:11",
+    "text": "And the Lord will give thee rest continually, and will fill thy soul with brightness, and deliver thy bones, and thou shalt be like a watered garden, and like a fountain of water whose waters shall not fail.",
+    "themes": ["consoled", "desolate"],
+    "keywords": ["rest", "brightness", "soul", "watered garden", "fountain", "fail not", "abundance"]
+  },
+  {
+    "id": "dr-070",
+    "reference": "Psalm 36:4",
+    "text": "Delight in the Lord, and he will give thee the requests of thy heart.",
+    "themes": ["consoled", "prayer"],
+    "keywords": ["delight", "Lord", "heart", "requests", "give", "desire"]
+  },
+  {
+    "id": "dr-071",
+    "reference": "Psalm 4:8",
+    "text": "Thou hast given gladness in my heart. From the fruit of their corn, their wine, and oil, they are multiplied.",
+    "themes": ["consoled"],
+    "keywords": ["gladness", "heart", "fruit", "multiplied", "given", "God", "joy"]
+  },
+  {
+    "id": "dr-072",
+    "reference": "Sirach 1:12",
+    "text": "The fear of the Lord rejoiceth the heart, and giveth joy, and gladness, and a long life.",
+    "themes": ["consoled", "prayer"],
+    "keywords": ["fear of the Lord", "rejoice", "heart", "joy", "gladness", "life"]
+  },
+  {
+    "id": "dr-073",
+    "reference": "Luke 1:46-47",
+    "text": "My soul doth magnify the Lord. And my spirit hath rejoiced in God my Saviour.",
+    "themes": ["consoled", "prayer"],
+    "keywords": ["Magnificat", "soul", "magnify", "Lord", "rejoiced", "God", "Saviour", "Mary"]
+  },
+  {
+    "id": "dr-074",
+    "reference": "John 16:22",
+    "text": "So also you now indeed have sorrow; but I will see you again, and your heart shall rejoice; and your joy no man shall take from you.",
+    "themes": ["consoled", "grieving"],
+    "keywords": ["sorrow", "see again", "heart", "rejoice", "joy", "take not", "Jesus"]
+  },
+  {
+    "id": "dr-075",
+    "reference": "Zephaniah 3:17",
+    "text": "The Lord thy God in the midst of thee is mighty, he will save thee: he will rejoice over thee with gladness, he will be silent in his love, he will be joyful over thee in praise.",
+    "themes": ["consoled", "wandering"],
+    "keywords": ["Lord", "midst", "mighty", "save", "rejoice", "gladness", "joyful", "love"]
+  },
+  {
+    "id": "dr-076",
+    "reference": "Romans 12:12",
+    "text": "Rejoicing in hope. Patient in tribulation. Instant in prayer.",
+    "themes": ["wounded-pilgrim", "suffering", "prayer"],
+    "keywords": ["rejoicing", "hope", "patient", "tribulation", "prayer", "instant"]
+  },
+  {
+    "id": "dr-077",
+    "reference": "2 Corinthians 6:4-5",
+    "text": "But in all things let us exhibit ourselves as the ministers of God, in much patience, in tribulations, in necessities, in distresses. In stripes, in prisons, in seditions, in labours, in watchings, in fastings.",
+    "themes": ["wounded-pilgrim", "suffering"],
+    "keywords": ["ministers", "patience", "tribulations", "stripes", "prisons", "labours", "persevere"]
+  },
+  {
+    "id": "dr-078",
+    "reference": "Galatians 6:9",
+    "text": "And in doing good, let us not fail. For in due time we shall reap, not failing.",
+    "themes": ["wounded-pilgrim"],
+    "keywords": ["good", "fail not", "reap", "due time", "persevere", "harvest"]
+  },
+  {
+    "id": "dr-079",
+    "reference": "1 Corinthians 10:13",
+    "text": "And God is faithful, who will not suffer you to be tempted above that which you are able: but will make also with temptation issue, that you may be able to bear it.",
+    "themes": ["wounded-pilgrim", "suffering"],
+    "keywords": ["temptation", "faithful", "God", "able", "bear", "issue", "escape"]
+  },
+  {
+    "id": "dr-080",
+    "reference": "1 Peter 5:8-9",
+    "text": "Be sober and watch: because your adversary the devil, as a roaring lion, goeth about seeking whom he may devour. Whom resist ye, strong in faith.",
+    "themes": ["wounded-pilgrim"],
+    "keywords": ["sober", "watch", "devil", "lion", "resist", "strong", "faith", "enemy"]
+  },
+  {
+    "id": "dr-081",
+    "reference": "Ephesians 6:11",
+    "text": "Put you on the armour of God, that you may be able to stand against the deceits of the devil.",
+    "themes": ["wounded-pilgrim"],
+    "keywords": ["armour", "God", "stand", "devil", "deceits", "spiritual battle"]
+  },
+  {
+    "id": "dr-082",
+    "reference": "Ephesians 6:16",
+    "text": "In all things taking the shield of faith, wherewith you may be able to extinguish all the fiery darts of the most wicked one.",
+    "themes": ["wounded-pilgrim"],
+    "keywords": ["shield", "faith", "extinguish", "fiery darts", "enemy", "protection"]
+  },
+  {
+    "id": "dr-083",
+    "reference": "Micah 7:7",
+    "text": "But I will look towards the Lord, I will wait for God my saviour: my God will hear me.",
+    "themes": ["desolate", "wounded-pilgrim", "trust"],
+    "keywords": ["look", "Lord", "wait", "God", "saviour", "hear", "hope"]
+  },
+  {
+    "id": "dr-084",
+    "reference": "Habakkuk 2:3",
+    "text": "For the vision is yet for an appointed time, and it shall appear at the end, and shall not lie: if it make any delay, wait for it, for it shall surely come, and it shall not be slack.",
+    "themes": ["desolate", "trust"],
+    "keywords": ["vision", "appointed time", "wait", "delay", "surely come", "hope", "patience"]
+  },
+  {
+    "id": "dr-085",
+    "reference": "Psalm 37:7",
+    "text": "Be subject to the Lord and pray to him. Envy not the man who prospereth in his way; the man who doth unjust things.",
+    "themes": ["trust", "wounded-pilgrim"],
+    "keywords": ["subject", "pray", "envy not", "prosperity", "Lord", "just"]
+  },
+  {
+    "id": "dr-086",
+    "reference": "Isaiah 30:18",
+    "text": "Therefore the Lord waiteth that he may have mercy on you, and therefore shall he be exalted sparing you: because the Lord is the God of judgment: blessed are all they that wait for him.",
+    "themes": ["trust", "desolate"],
+    "keywords": ["Lord waits", "mercy", "wait", "blessed", "judgment", "God", "spare"]
+  },
+  {
+    "id": "dr-087",
+    "reference": "Psalm 27:14",
+    "text": "Expect the Lord, do manfully, and let thy heart take courage, and wait thou for the Lord.",
+    "themes": ["trust", "desolate", "wounded-pilgrim"],
+    "keywords": ["expect", "Lord", "manfully", "courage", "heart", "wait", "patience"]
+  },
+  {
+    "id": "dr-088",
+    "reference": "Psalm 119:165",
+    "text": "Much peace have they that love thy law, and to them there is no stumbling block.",
+    "themes": ["scrupulous", "consoled"],
+    "keywords": ["peace", "love", "law", "stumbling block", "law of God", "calm"]
+  },
+  {
+    "id": "dr-089",
+    "reference": "Numbers 6:24-26",
+    "text": "The Lord bless thee, and keep thee. The Lord shew his face to thee, and have mercy on thee. The Lord turn his countenance to thee, and give thee peace.",
+    "themes": ["consoled", "scrupulous", "prayer"],
+    "keywords": ["bless", "keep", "Lord", "face", "mercy", "countenance", "peace", "blessing"]
+  },
+  {
+    "id": "dr-090",
+    "reference": "Isaiah 26:3",
+    "text": "The old error is passed away: thou wilt keep peace: peace, because we have hoped in thee.",
+    "themes": ["scrupulous", "trust", "consoled"],
+    "keywords": ["peace", "hoped", "error", "passed", "keep peace", "trust", "God"]
+  },
+  {
+    "id": "dr-091",
+    "reference": "2 Thessalonians 3:16",
+    "text": "And may the Lord of peace himself give you everlasting peace in every place. The Lord be with you all.",
+    "themes": ["scrupulous", "consoled"],
+    "keywords": ["Lord of peace", "everlasting", "peace", "every place", "Lord with you"]
+  },
+  {
+    "id": "dr-092",
+    "reference": "Romans 15:33",
+    "text": "And the God of peace be with you all. Amen.",
+    "themes": ["scrupulous", "consoled"],
+    "keywords": ["God of peace", "with you", "amen", "peace", "prayer"]
+  },
+  {
+    "id": "dr-093",
+    "reference": "Colossians 3:15",
+    "text": "And let the peace of Christ rejoice in your hearts, wherein also you are called in one body: and be ye thankful.",
+    "themes": ["scrupulous", "consoled"],
+    "keywords": ["peace of Christ", "rejoice", "hearts", "thankful", "one body", "called"]
+  },
+  {
+    "id": "dr-094",
+    "reference": "Isaiah 32:17",
+    "text": "And the work of justice shall be peace, and the service of justice quietness, and security for ever.",
+    "themes": ["scrupulous", "consoled"],
+    "keywords": ["justice", "peace", "quietness", "security", "forever", "work"]
+  },
+  {
+    "id": "dr-095",
+    "reference": "Sirach 28:8",
+    "text": "Refrain from strife, and thou shalt diminish thy sins: for a passionate man kindleth strife, and a sinful man will trouble his friends.",
+    "themes": ["scrupulous", "penitent"],
+    "keywords": ["strife", "refrain", "sins", "passionate", "peace", "diminish"]
+  },
+  {
+    "id": "dr-096",
+    "reference": "Psalm 107:28-30",
+    "text": "And they cried to the Lord in their affliction: and he brought them out of their distresses. And he turned the storm into a breeze: and its waves were still. And they rejoiced because they were still: and he brought them to the haven which they wished for.",
+    "themes": ["trust", "suffering", "desolate"],
+    "keywords": ["storm", "breeze", "still", "haven", "affliction", "Lord", "rejoiced", "rescue"]
+  },
+  {
+    "id": "dr-097",
+    "reference": "Nahum 1:7",
+    "text": "The Lord is good, and giveth strength in the day of trouble: and knoweth them that hope in him.",
+    "themes": ["trust", "suffering"],
+    "keywords": ["Lord good", "strength", "trouble", "knows", "hope", "day"]
+  },
+  {
+    "id": "dr-098",
+    "reference": "Psalm 55:22",
+    "text": "Cast thy care upon the Lord, and he shall sustain thee: he shall not suffer the just to waver for ever.",
+    "themes": ["trust", "scrupulous"],
+    "keywords": ["cast", "care", "Lord", "sustain", "just", "waver", "forever"]
+  },
+  {
+    "id": "dr-099",
+    "reference": "Proverbs 3:5-6",
+    "text": "Have confidence in the Lord with all thy heart, and lean not upon thy own prudence. In all thy ways think on him, and he will direct thy steps.",
+    "themes": ["trust", "wandering", "scrupulous"],
+    "keywords": ["confidence", "Lord", "heart", "lean not", "prudence", "direct", "steps"]
+  },
+  {
+    "id": "dr-100",
+    "reference": "Psalm 37:5",
+    "text": "Commit thy way to the Lord, and trust in him, and he will do it.",
+    "themes": ["trust"],
+    "keywords": ["commit", "way", "Lord", "trust", "he will do it", "surrender"]
+  },
+  {
+    "id": "dr-101",
+    "reference": "Mark 11:24",
+    "text": "Therefore I say unto you, all things whatsoever you ask when ye pray, believe that you shall receive; and they shall come unto you.",
+    "themes": ["prayer", "trust"],
+    "keywords": ["ask", "pray", "believe", "receive", "faith", "prayer answered"]
+  },
+  {
+    "id": "dr-102",
+    "reference": "Luke 11:9-10",
+    "text": "And I say to you, Ask, and it shall be given you: seek, and you shall find: knock, and it shall be opened to you. For every one that asketh, receiveth: and he that seeketh, findeth.",
+    "themes": ["prayer", "wandering"],
+    "keywords": ["ask", "seek", "knock", "find", "receive", "given", "open", "prayer"]
+  },
+  {
+    "id": "dr-103",
+    "reference": "Matthew 6:6",
+    "text": "But thou when thou shalt pray, enter into thy chamber, and having shut the door, pray to thy Father in secret: and thy Father who seeth in secret will repay thee.",
+    "themes": ["prayer"],
+    "keywords": ["pray", "chamber", "door", "secret", "Father", "repay", "private prayer"]
+  },
+  {
+    "id": "dr-104",
+    "reference": "1 Thessalonians 5:17",
+    "text": "Pray without ceasing.",
+    "themes": ["prayer"],
+    "keywords": ["pray", "without ceasing", "always", "continuous", "prayer", "constant"]
+  },
+  {
+    "id": "dr-105",
+    "reference": "Psalm 141:2",
+    "text": "Let my prayer be directed as incense in thy sight; the lifting up of my hands, as evening sacrifice.",
+    "themes": ["prayer", "consoled"],
+    "keywords": ["prayer", "incense", "sight", "hands", "evening", "sacrifice", "worship"]
+  },
+  {
+    "id": "dr-106",
+    "reference": "1 Timothy 2:1",
+    "text": "I desire therefore, first of all, that supplications, prayers, intercessions, and thanksgivings be made for all men.",
+    "themes": ["prayer"],
+    "keywords": ["supplications", "prayers", "intercessions", "thanksgivings", "all men", "pray"]
+  },
+  {
+    "id": "dr-107",
+    "reference": "Psalm 34:6",
+    "text": "They shall look unto him, and be lightened: and their faces shall not be confounded.",
+    "themes": ["prayer", "desolate", "scrupulous"],
+    "keywords": ["look", "lightened", "faces", "confounded not", "shame", "God", "prayer"]
+  },
+  {
+    "id": "dr-108",
+    "reference": "Jeremiah 29:12-13",
+    "text": "And you shall call upon me, and you shall go: and you shall pray to me, and I will hear you. You shall seek me, and shall find me: when you shall seek me with all your heart.",
+    "themes": ["prayer", "wandering", "desolate"],
+    "keywords": ["call", "pray", "hear", "seek", "find", "whole heart", "God"]
+  },
+  {
+    "id": "dr-109",
+    "reference": "Psalm 17:2",
+    "text": "Let my judgment come forth from thy countenance: let thy eyes behold the things that are equitable.",
+    "themes": ["trust", "prayer"],
+    "keywords": ["judgment", "countenance", "eyes", "equitable", "trust", "justice"]
+  },
+  {
+    "id": "dr-110",
+    "reference": "Matthew 26:41",
+    "text": "Watch ye, and pray that ye enter not into temptation. The spirit indeed is willing, but the flesh is weak.",
+    "themes": ["prayer", "wounded-pilgrim"],
+    "keywords": ["watch", "pray", "temptation", "spirit willing", "flesh weak", "vigilance"]
+  },
+  {
+    "id": "dr-111",
+    "reference": "Luke 18:1",
+    "text": "And he spoke also a parable to them, that we ought always to pray, and not to faint.",
+    "themes": ["prayer", "desolate"],
+    "keywords": ["always pray", "not faint", "parable", "persistent", "prayer", "continual"]
+  },
+  {
+    "id": "dr-112",
+    "reference": "Psalm 95:6",
+    "text": "Come let us adore and fall down: and weep before the Lord that made us.",
+    "themes": ["prayer", "penitent"],
+    "keywords": ["adore", "fall down", "weep", "Lord", "made us", "worship", "prostrate"]
+  },
+  {
+    "id": "dr-113",
+    "reference": "Acts 2:42",
+    "text": "And they were persevering in the doctrine of the apostles, and in the communication of the breaking of bread, and in prayers.",
+    "themes": ["prayer", "consoled"],
+    "keywords": ["persevering", "apostles", "breaking of bread", "Eucharist", "prayers", "community"]
+  },
+  {
+    "id": "dr-114",
+    "reference": "Colossians 4:2",
+    "text": "Be instant in prayer; watching in it with thanksgiving.",
+    "themes": ["prayer"],
+    "keywords": ["instant", "prayer", "watching", "thanksgiving", "alert", "gratitude"]
+  },
+  {
+    "id": "dr-115",
+    "reference": "Psalm 28:7",
+    "text": "The Lord is my helper and my protector: in him hath my heart confided, and I have been helped. And my flesh hath flourished again, and with my will I will give praise to him.",
+    "themes": ["consoled", "suffering", "trust"],
+    "keywords": ["helper", "protector", "confided", "helped", "flourished", "praise", "Lord"]
+  },
+  {
+    "id": "dr-116",
+    "reference": "Psalm 71:20",
+    "text": "After thou hast shewn me many and grievous troubles, thou wilt turn and revive me: and from the depths of the earth again thou wilt bring me forth.",
+    "themes": ["suffering", "desolate", "trust"],
+    "keywords": ["troubles", "revive", "depths", "earth", "bring forth", "turn", "after"]
+  },
+  {
+    "id": "dr-117",
+    "reference": "Psalm 119:50",
+    "text": "This hath comforted me in my humiliation: because thy word hath enlivened me.",
+    "themes": ["suffering", "desolate"],
+    "keywords": ["comforted", "humiliation", "word", "enlivened", "comfort", "God's word"]
+  },
+  {
+    "id": "dr-118",
+    "reference": "Psalm 119:71",
+    "text": "It is good for me that thou hast humbled me, that I may learn thy justifications.",
+    "themes": ["suffering", "penitent"],
+    "keywords": ["humbled", "good", "learn", "justifications", "suffering", "purpose", "discipline"]
+  },
+  {
+    "id": "dr-119",
+    "reference": "Psalm 119:92",
+    "text": "Unless thy law had been my meditation, I had then perhaps perished in my abasement.",
+    "themes": ["suffering", "prayer"],
+    "keywords": ["law", "meditation", "perished", "abasement", "law of God", "survived", "word"]
+  },
+  {
+    "id": "dr-120",
+    "reference": "Romans 5:3-5",
+    "text": "And not only so; but we glory also in tribulations, knowing that tribulation worketh patience; And patience trial; and trial hope; And hope confoundeth not.",
+    "themes": ["suffering", "wounded-pilgrim"],
+    "keywords": ["glory", "tribulations", "patience", "trial", "hope", "confound not", "chain"]
+  },
+  {
+    "id": "dr-121",
+    "reference": "1 Peter 1:6-7",
+    "text": "Wherein you shall greatly rejoice, if now you must be for a little time made sorrowful in divers temptations: That the trial of your faith (much more precious than gold which is tried by the fire) may be found unto praise and glory and honour at the revelation of Jesus Christ.",
+    "themes": ["suffering", "wounded-pilgrim"],
+    "keywords": ["rejoice", "sorrowful", "trial", "faith", "gold", "fire", "praise", "glory"]
+  },
+  {
+    "id": "dr-122",
+    "reference": "John 16:33",
+    "text": "These things I have spoken to you, that in me you may have peace. In the world you shall have distress: but have confidence, I have overcome the world.",
+    "themes": ["suffering", "trust", "wounded-pilgrim"],
+    "keywords": ["peace", "distress", "world", "confidence", "overcome", "Jesus", "tribulation"]
+  },
+  {
+    "id": "dr-123",
+    "reference": "Acts 14:22",
+    "text": "Confirming the souls of the disciples, and exhorting them to continue in the faith: and that through many tribulations we must enter into the kingdom of God.",
+    "themes": ["suffering", "wounded-pilgrim"],
+    "keywords": ["tribulations", "kingdom", "God", "enter", "many", "faith", "continue"]
+  },
+  {
+    "id": "dr-124",
+    "reference": "2 Timothy 2:3",
+    "text": "Labour as a good soldier of Christ Jesus.",
+    "themes": ["wounded-pilgrim"],
+    "keywords": ["labour", "soldier", "Christ", "good", "fight", "serve"]
+  },
+  {
+    "id": "dr-125",
+    "reference": "2 Timothy 2:12",
+    "text": "If we suffer, we shall also reign with him. If we deny him, he will also deny us.",
+    "themes": ["suffering", "wounded-pilgrim"],
+    "keywords": ["suffer", "reign", "deny", "Christ", "with him", "crown", "endure"]
+  },
+  {
+    "id": "dr-126",
+    "reference": "Revelation 2:10",
+    "text": "Fear none of those things which thou shalt suffer. Behold, the devil will cast some of you into prison, that you may be tried: and you shall have tribulation ten days. Be thou faithful until death: and I will give thee the crown of life.",
+    "themes": ["wounded-pilgrim", "suffering"],
+    "keywords": ["fear not", "suffer", "trial", "faithful", "death", "crown of life", "tribulation"]
+  },
+  {
+    "id": "dr-127",
+    "reference": "Psalm 3:4",
+    "text": "But thou, O Lord, art my protector, my glory, and the lifter up of my head.",
+    "themes": ["wounded-pilgrim", "trust"],
+    "keywords": ["protector", "glory", "lifter", "head", "Lord", "shield", "lift up"]
+  },
+  {
+    "id": "dr-128",
+    "reference": "Psalm 18:33",
+    "text": "God who hath girt me with strength; and made my way blameless.",
+    "themes": ["wounded-pilgrim"],
+    "keywords": ["God", "girt", "strength", "way", "blameless", "equipped", "prepared"]
+  },
+  {
+    "id": "dr-129",
+    "reference": "Ecclesiasticus 2:1",
+    "text": "Son, when thou comest to the service of God, stand in justice and in fear, and prepare thy soul for temptation.",
+    "themes": ["wounded-pilgrim", "prayer"],
+    "keywords": ["service", "God", "justice", "fear", "prepare", "soul", "temptation"]
+  },
+  {
+    "id": "dr-130",
+    "reference": "Ecclesiasticus 2:4",
+    "text": "Whatsoever shall be brought upon thee take it up, and in thy sorrow endure it, and in thy humiliation keep patience.",
+    "themes": ["suffering", "wounded-pilgrim"],
+    "keywords": ["take up", "sorrow", "endure", "humiliation", "patience", "whatever comes"]
+  }
+]

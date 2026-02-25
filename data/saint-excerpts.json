@@ -1,0 +1,282 @@
+[
+  {
+    "id": "therese-001",
+    "text": "I understood that love comprised all vocations. Love is everything. It contains all time and place and is eternal.",
+    "source": "Story of a Soul, St. Thérèse of Lisieux (1898)",
+    "saint": "Thérèse of Lisieux",
+    "themes": ["consoled", "prayer"],
+    "keywords": ["love", "vocation", "eternal", "everything", "time", "place"]
+  },
+  {
+    "id": "therese-002",
+    "text": "What does it matter to me if I am weak? I shall always have enough strength to carry my little cross.",
+    "source": "Story of a Soul, St. Thérèse of Lisieux (1898)",
+    "saint": "Thérèse of Lisieux",
+    "themes": ["suffering", "wounded-pilgrim", "scrupulous"],
+    "keywords": ["weak", "cross", "strength", "little way", "enough"]
+  },
+  {
+    "id": "therese-003",
+    "text": "I am small. That is the whole secret. I am a little child who is content to be nothing. This is my way.",
+    "source": "Story of a Soul, St. Thérèse of Lisieux (1898)",
+    "saint": "Thérèse of Lisieux",
+    "themes": ["scrupulous", "wandering", "trust"],
+    "keywords": ["small", "nothing", "child", "little way", "contentment", "humble"]
+  },
+  {
+    "id": "therese-004",
+    "text": "You know well enough that Our Lord does not look so much at the greatness of our actions, nor even at their difficulty, but at the love with which we do them.",
+    "source": "Story of a Soul, St. Thérèse of Lisieux (1898)",
+    "saint": "Thérèse of Lisieux",
+    "themes": ["consoled", "wounded-pilgrim"],
+    "keywords": ["love", "actions", "greatness", "difficulty", "God", "little way"]
+  },
+  {
+    "id": "therese-005",
+    "text": "I am not always faithful, but I never get discouraged. I abandon myself into the arms of Jesus.",
+    "source": "Story of a Soul, St. Thérèse of Lisieux (1898)",
+    "saint": "Thérèse of Lisieux",
+    "themes": ["penitent", "scrupulous", "trust"],
+    "keywords": ["faithful", "discouraged", "abandon", "Jesus", "arms", "trust"]
+  },
+  {
+    "id": "therese-006",
+    "text": "Miss no single opportunity of making some small sacrifice, here by a smiling look, there by a kindly word; always doing the smallest right and doing it all for love.",
+    "source": "Story of a Soul, St. Thérèse of Lisieux (1898)",
+    "saint": "Thérèse of Lisieux",
+    "themes": ["wounded-pilgrim", "consoled"],
+    "keywords": ["sacrifice", "small", "love", "opportunity", "kindness", "smile"]
+  },
+  {
+    "id": "therese-007",
+    "text": "Holiness does not consist in one practice or another; it consists in a disposition of the heart which renders us humble and little in the hands of God.",
+    "source": "Story of a Soul, St. Thérèse of Lisieux (1898)",
+    "saint": "Thérèse of Lisieux",
+    "themes": ["scrupulous", "prayer"],
+    "keywords": ["holiness", "humble", "little", "heart", "God", "disposition"]
+  },
+  {
+    "id": "therese-008",
+    "text": "Even if God were to kill me, I would still trust in Him.",
+    "source": "Story of a Soul, St. Thérèse of Lisieux (1898)",
+    "saint": "Thérèse of Lisieux",
+    "themes": ["trust", "desolate", "suffering"],
+    "keywords": ["trust", "God", "kill", "faith", "dark night", "complete surrender"]
+  },
+  {
+    "id": "therese-009",
+    "text": "I am too small to climb the steep staircase of perfection. I have sought an elevator — and I have found it: the arms of Jesus.",
+    "source": "Story of a Soul, St. Thérèse of Lisieux (1898)",
+    "saint": "Thérèse of Lisieux",
+    "themes": ["scrupulous", "wandering", "trust"],
+    "keywords": ["small", "elevator", "perfection", "arms", "Jesus", "little way", "carried"]
+  },
+  {
+    "id": "therese-010",
+    "text": "I believe my vocation is love. In the heart of the Church I will be love itself, and thus I will be all things.",
+    "source": "Story of a Soul, St. Thérèse of Lisieux (1898)",
+    "saint": "Thérèse of Lisieux",
+    "themes": ["consoled", "wandering"],
+    "keywords": ["vocation", "love", "Church", "heart", "all things", "call"]
+  },
+  {
+    "id": "therese-011",
+    "text": "I am not dying, I am entering life.",
+    "source": "Final words of St. Thérèse of Lisieux (1897)",
+    "saint": "Thérèse of Lisieux",
+    "themes": ["grieving"],
+    "keywords": ["death", "life", "entering", "paradise", "hope", "passage"]
+  },
+  {
+    "id": "therese-012",
+    "text": "When I shall have arrived in port, I will teach you, dear little children, how to navigate the stormy sea of the world.",
+    "source": "Story of a Soul, St. Thérèse of Lisieux (1898)",
+    "saint": "Thérèse of Lisieux",
+    "themes": ["grieving", "trust"],
+    "keywords": ["port", "heaven", "teach", "navigate", "sea", "intercession", "storm"]
+  },
+  {
+    "id": "therese-013",
+    "text": "Our Lord has need of our love. He has no need of our works. No one forced God to create us. He did so for love.",
+    "source": "Story of a Soul, St. Thérèse of Lisieux (1898)",
+    "saint": "Thérèse of Lisieux",
+    "themes": ["consoled", "prayer"],
+    "keywords": ["God", "love", "need", "works", "create", "not forced"]
+  },
+  {
+    "id": "therese-014",
+    "text": "If I did not suffer from minute to minute, it would be impossible for me to be patient, but I look only at the present moment.",
+    "source": "Story of a Soul, St. Thérèse of Lisieux (1898)",
+    "saint": "Thérèse of Lisieux",
+    "themes": ["suffering", "scrupulous"],
+    "keywords": ["suffering", "patient", "present moment", "minute", "impossible", "patience"]
+  },
+  {
+    "id": "therese-015",
+    "text": "After my death, I will let fall a shower of roses. I will spend my heaven doing good upon earth.",
+    "source": "Final counsels, St. Thérèse of Lisieux (1897)",
+    "saint": "Thérèse of Lisieux",
+    "themes": ["grieving", "consoled"],
+    "keywords": ["death", "roses", "heaven", "good", "intercession", "roses of Thérèse"]
+  },
+  {
+    "id": "jotc-001",
+    "text": "To come to the knowledge you have not, you must go by a way in which you know not.",
+    "source": "Ascent of Mount Carmel, St. John of the Cross (c. 1579)",
+    "saint": "John of the Cross",
+    "themes": ["wandering", "desolate"],
+    "keywords": ["knowledge", "unknown", "way", "darkness", "ascent", "faith"]
+  },
+  {
+    "id": "jotc-002",
+    "text": "In the evening of life, we will be judged on love alone.",
+    "source": "Maxims, St. John of the Cross (c. 1590)",
+    "saint": "John of the Cross",
+    "themes": ["consoled", "grieving"],
+    "keywords": ["evening", "life", "judged", "love", "final judgment", "end"]
+  },
+  {
+    "id": "jotc-003",
+    "text": "Where there is no love, put love, and you will draw love out.",
+    "source": "Letters, St. John of the Cross",
+    "saint": "John of the Cross",
+    "themes": ["consoled"],
+    "keywords": ["love", "put", "draw out", "charity", "give"]
+  },
+  {
+    "id": "jotc-004",
+    "text": "The soul that is attached to anything, however much good there may be in it, will not arrive at the liberty of divine union.",
+    "source": "Ascent of Mount Carmel, St. John of the Cross (c. 1579)",
+    "saint": "John of the Cross",
+    "themes": ["wandering", "desolate"],
+    "keywords": ["attachment", "soul", "liberty", "union", "detachment", "God"]
+  },
+  {
+    "id": "jotc-005",
+    "text": "The endurance of darkness is preparation for great light.",
+    "source": "Dark Night of the Soul, St. John of the Cross (c. 1579)",
+    "saint": "John of the Cross",
+    "themes": ["desolate"],
+    "keywords": ["darkness", "preparation", "light", "endure", "dark night", "hope"]
+  },
+  {
+    "id": "jotc-006",
+    "text": "The virtuous soul that is alone and without a master is like the burning coal that is alone. It will grow colder rather than hotter.",
+    "source": "Sayings of Light and Love, St. John of the Cross",
+    "saint": "John of the Cross",
+    "themes": ["wandering", "prayer"],
+    "keywords": ["alone", "master", "spiritual direction", "coal", "cold", "community"]
+  },
+  {
+    "id": "jotc-007",
+    "text": "God passes through the thicket of the world, and wherever His glance falls He turns all things to beauty.",
+    "source": "Spiritual Canticle, St. John of the Cross (c. 1577)",
+    "saint": "John of the Cross",
+    "themes": ["consoled", "trust"],
+    "keywords": ["God", "beauty", "world", "glance", "transforms", "love"]
+  },
+  {
+    "id": "jotc-008",
+    "text": "The dark night of the soul is not God's punishment — it is God's intimacy. He calls the soul deeper.",
+    "source": "Dark Night of the Soul, St. John of the Cross (c. 1579)",
+    "saint": "John of the Cross",
+    "themes": ["desolate"],
+    "keywords": ["dark night", "punishment", "intimacy", "deeper", "God", "call"]
+  },
+  {
+    "id": "jotc-009",
+    "text": "In tribulation, immediately draw near to God with trust, and you will receive strength, enlightenment, and instruction.",
+    "source": "Sayings of Light and Love, St. John of the Cross",
+    "saint": "John of the Cross",
+    "themes": ["suffering", "wounded-pilgrim", "trust"],
+    "keywords": ["tribulation", "God", "trust", "strength", "enlightenment", "draw near"]
+  },
+  {
+    "id": "jotc-010",
+    "text": "One act of thanksgiving when things go wrong is worth a thousand when things go right.",
+    "source": "Sayings of Light and Love, St. John of the Cross",
+    "saint": "John of the Cross",
+    "themes": ["suffering", "consoled", "trust"],
+    "keywords": ["thanksgiving", "wrong", "right", "worth", "gratitude", "adversity"]
+  },
+  {
+    "id": "jotc-011",
+    "text": "God, who is ever-present to the soul that seeks Him, never turns away from those who seek Him with a pure heart.",
+    "source": "Sayings of Light and Love, St. John of the Cross",
+    "saint": "John of the Cross",
+    "themes": ["wandering", "desolate", "prayer"],
+    "keywords": ["God", "present", "seeks", "pure heart", "turns away", "prayer"]
+  },
+  {
+    "id": "jotc-012",
+    "text": "My beloved is the mountains, and lonely wooded valleys, strange islands, and resounding rivers — He is found in all things.",
+    "source": "Spiritual Canticle, St. John of the Cross (c. 1577)",
+    "saint": "John of the Cross",
+    "themes": ["consoled", "prayer"],
+    "keywords": ["beloved", "God", "found", "all things", "nature", "presence"]
+  },
+  {
+    "id": "jotc-013",
+    "text": "The fly that clings to honey hinders its flight; so the soul that allows itself to be caught by sweetness of delight hinders its own liberty.",
+    "source": "Ascent of Mount Carmel, St. John of the Cross",
+    "saint": "John of the Cross",
+    "themes": ["scrupulous", "wandering"],
+    "keywords": ["attachment", "fly", "honey", "soul", "liberty", "freedom", "clinging"]
+  },
+  {
+    "id": "jotc-014",
+    "text": "It is wisdom to rejoice in the crosses and trials of this life, for in them we find our rest.",
+    "source": "Sayings of Light and Love, St. John of the Cross",
+    "saint": "John of the Cross",
+    "themes": ["suffering", "consoled"],
+    "keywords": ["rejoice", "cross", "trials", "wisdom", "rest", "paradox"]
+  },
+  {
+    "id": "jotc-015",
+    "text": "Do not fail to note that no soul lacking the guidance of a good master can prosper in the spiritual life.",
+    "source": "Dark Night of the Soul, St. John of the Cross",
+    "saint": "John of the Cross",
+    "themes": ["wandering", "prayer"],
+    "keywords": ["guidance", "master", "spiritual director", "prosper", "soul"]
+  },
+  {
+    "id": "augustine-001",
+    "text": "Our heart is restless, until it repose in Thee.",
+    "source": "Confessions Book I, St. Augustine of Hippo (c. 400 AD)",
+    "saint": "Augustine of Hippo",
+    "themes": ["wandering", "desolate", "consoled"],
+    "keywords": ["restless", "heart", "God", "rest", "repose", "longing", "Augustine"]
+  },
+  {
+    "id": "augustine-002",
+    "text": "God loves each of us as if there were only one of us.",
+    "source": "Confessions, St. Augustine of Hippo",
+    "saint": "Augustine of Hippo",
+    "themes": ["consoled", "wandering"],
+    "keywords": ["God", "love", "one", "personal", "individual", "as if"]
+  },
+  {
+    "id": "augustine-003",
+    "text": "Thou awakest us to delight in Thy praise; for Thou madest us for Thyself.",
+    "source": "Confessions Book I, St. Augustine of Hippo (c. 400 AD)",
+    "saint": "Augustine of Hippo",
+    "themes": ["consoled", "wandering"],
+    "keywords": ["praise", "made", "God", "delight", "purpose", "rest"]
+  },
+  {
+    "id": "augustine-004",
+    "text": "God is more intimate to me than I am to myself.",
+    "source": "Confessions, St. Augustine of Hippo",
+    "saint": "Augustine of Hippo",
+    "themes": ["consoled", "desolate", "prayer"],
+    "keywords": ["God", "intimate", "interior", "inner", "closer", "self"]
+  },
+  {
+    "id": "augustine-005",
+    "text": "Late have I loved thee, O Beauty ever ancient, ever new. Late have I loved thee.",
+    "source": "Confessions Book X, St. Augustine of Hippo (c. 400 AD)",
+    "saint": "Augustine of Hippo",
+    "themes": ["penitent", "wandering", "consoled"],
+    "keywords": ["loved", "late", "beauty", "ancient", "new", "return", "conversion"]
+  }
+]
