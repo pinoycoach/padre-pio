@@ -21,6 +21,7 @@ import {
   Mic, Square
 } from 'lucide-react';
 import { processAudioWithGemini, createAudioRecorder } from './services/audioService';
+import novenaData from './data/novenas.json';
 
 // Crisis detection — pre-flight check before Gemini runs
 const CRISIS_REGEX = /\b(end my life|kill myself|want to die|suicid|don't want to be here|can't go on|no reason to live|better off dead|hurt myself|self.harm|take my life)\b/i;
@@ -169,6 +170,10 @@ const App: React.FC = () => {
   // Crisis intervention
   const [showCrisisBanner, setShowCrisisBanner] = useState(false);
 
+  // Novena state — persisted in localStorage
+  const [novenaProgress, setNovenaProgress] = useState<Record<string, { day: number; startDate: string }>>({});
+  const [activeNovenaId, setActiveNovenaId] = useState<string | null>(null);
+
   // Analysis state
   const [deepAnalysis, setDeepAnalysis] = useState<DeepSoulAnalysis | null>(null);
   const [groundedWhisper, setGroundedWhisper] = useState<GroundedWhisper | null>(null);
@@ -300,6 +305,14 @@ const App: React.FC = () => {
       setAnalyzer(newAnalyzer);
       console.log('Audio context initialized');
     }
+  }, []);
+
+  // Load novena progress from localStorage on mount
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem('pp_novena_progress');
+      if (saved) setNovenaProgress(JSON.parse(saved));
+    } catch { /* ignore parse errors */ }
   }, []);
 
   // Camera functions
@@ -764,6 +777,30 @@ const App: React.FC = () => {
     recorderRef.current = null;
   };
 
+  // Novena helpers
+  const startNovena = (novenaId: string) => {
+    const updated = { ...novenaProgress, [novenaId]: { day: 1, startDate: new Date().toISOString() } };
+    setNovenaProgress(updated);
+    localStorage.setItem('pp_novena_progress', JSON.stringify(updated));
+    setActiveNovenaId(novenaId);
+  };
+
+  const advanceNovenaDay = (novenaId: string) => {
+    const current = novenaProgress[novenaId];
+    if (!current) return;
+    const nextDay = Math.min(current.day + 1, 9);
+    const updated = { ...novenaProgress, [novenaId]: { ...current, day: nextDay } };
+    setNovenaProgress(updated);
+    localStorage.setItem('pp_novena_progress', JSON.stringify(updated));
+  };
+
+  const resetNovena = (novenaId: string) => {
+    const updated = { ...novenaProgress };
+    delete updated[novenaId];
+    setNovenaProgress(updated);
+    localStorage.setItem('pp_novena_progress', JSON.stringify(updated));
+  };
+
   // Switch to text input mode
   const switchToTextInput = () => {
     stopCamera();
@@ -932,6 +969,17 @@ const App: React.FC = () => {
                 )}
               </div>
             </div>
+
+            {/* Novena link — subtle, below audio */}
+            <div className="flex justify-center pt-2">
+              <button
+                onClick={() => setView('novena')}
+                className="text-[9px] uppercase tracking-[0.15em] text-amber-100/20 hover:text-amber-100/45 transition-colors"
+              >
+                🕯️ Begin a Novena with Padre Pio
+              </button>
+            </div>
+
           </div>
         )}
 
@@ -1287,63 +1335,102 @@ const App: React.FC = () => {
           </div>
         )}
 
-        {/* SCREEN 4: THE WHISPER */}
+        {/* SCREEN 4: THE WHISPER — Parchment Prayer Card */}
         {view === 'whisper' && gift && (
           <div className="flex-1 flex flex-col items-center animate-in fade-in duration-1000 overflow-hidden">
-            {/* Background image - fixed */}
+            {/* Atmospheric background — faint SVG, reduced opacity */}
             <div className="absolute inset-0 overflow-hidden">
               <img
                 src={gift.imageUrl}
-                className={`w-full h-full object-cover transition-transform duration-[60s] ease-linear opacity-30 ${isPlaying ? 'scale-110' : 'scale-100'}`}
+                className={`w-full h-full object-cover transition-transform duration-[60s] ease-linear opacity-15 ${isPlaying ? 'scale-110' : 'scale-100'}`}
                 alt=""
               />
-              <div className="absolute inset-0 bg-gradient-to-b from-[#02040a]/60 via-[#02040a]/40 to-[#02040a]" />
+              <div className="absolute inset-0 bg-gradient-to-b from-[#02040a]/70 via-[#02040a]/50 to-[#02040a]" />
             </div>
 
-            {/* Scrollable content area */}
-            <div className="relative z-10 flex-1 w-full overflow-y-auto flex flex-col">
-              {/* Header with Archetype */}
-              <div className="flex flex-col items-center gap-2 pt-4 pb-6 animate-in fade-in slide-in-from-top-4 duration-1000">
-                <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-amber-900/20 border border-amber-500/10 backdrop-blur-md">
-                  <Heart size={10} className="text-amber-400/60" />
-                  <span className="text-[8px] uppercase tracking-[0.25em] font-bold text-amber-100/60">Scripture Grounded</span>
+            {/* Scrollable content */}
+            <div className="relative z-10 flex-1 w-full overflow-y-auto flex flex-col items-center justify-center px-5 py-6 gap-5">
+
+              {/* Parchment card */}
+              <div
+                className="w-full max-w-sm rounded-2xl overflow-hidden animate-in fade-in slide-in-from-bottom-4 duration-1000"
+                style={{
+                  background: 'linear-gradient(160deg, #f7ecd4 0%, #f0e2bc 45%, #e9d8a8 100%)',
+                  boxShadow: '0 0 0 1px rgba(139,90,43,0.18), 0 12px 48px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.3)',
+                }}
+              >
+                {/* Top aged border */}
+                <div style={{ height: '2px', background: 'linear-gradient(90deg, transparent 0%, rgba(139,90,43,0.35) 30%, rgba(139,90,43,0.35) 70%, transparent 100%)' }} />
+
+                {/* Archetype + "Scripture Grounded" */}
+                <div className="flex flex-col items-center pt-5 pb-3 gap-1">
+                  {deepAnalysis && (
+                    <div className="flex items-center gap-1.5">
+                      <span className="text-base">{ARCHETYPE_ICONS[deepAnalysis.archetype]}</span>
+                      <span className="text-[8px] uppercase tracking-[0.3em] font-bold" style={{ color: 'rgba(101,67,33,0.55)' }}>
+                        {deepAnalysis.archetype}
+                      </span>
+                    </div>
+                  )}
+                  <span className="text-[7px] uppercase tracking-[0.25em]" style={{ color: 'rgba(139,90,43,0.35)' }}>
+                    ✦ Douay-Rheims · Padre Pio ✦
+                  </span>
                 </div>
-                {deepAnalysis && (
-                  <div className="flex items-center gap-2 opacity-50">
-                    <span className="text-sm">{ARCHETYPE_ICONS[deepAnalysis.archetype]}</span>
-                    <span className="text-[9px] uppercase tracking-[0.15em] text-amber-100/40">{deepAnalysis.archetype}</span>
-                  </div>
-                )}
+
+                {/* Prayer text — EB Garamond italic */}
+                <div className="px-7 py-3 text-center">
+                  <p
+                    className="italic text-[15px] leading-[1.95]"
+                    style={{
+                      fontFamily: '"EB Garamond", Georgia, "Times New Roman", serif',
+                      color: '#3d2b1a',
+                      textShadow: '0 1px 2px rgba(255,255,255,0.4)',
+                    }}
+                  >
+                    "{gift.devotionalText}"
+                  </p>
+                </div>
+
+                {/* ✝ divider */}
+                <div className="flex items-center px-8 py-3 gap-3">
+                  <div className="flex-1 h-px" style={{ background: 'rgba(139,90,43,0.2)' }} />
+                  <span style={{ color: 'rgba(139,90,43,0.45)', fontSize: '12px', lineHeight: 1 }}>✝</span>
+                  <div className="flex-1 h-px" style={{ background: 'rgba(139,90,43,0.2)' }} />
+                </div>
+
+                {/* Scripture reference & text */}
+                <div className="px-7 pb-6 text-center">
+                  <p
+                    className="text-[10px] uppercase tracking-[0.22em] font-bold mb-2"
+                    style={{ color: 'rgba(101,67,33,0.75)' }}
+                  >
+                    {gift.scriptureReference}
+                  </p>
+                  <p
+                    className="text-[10px] leading-relaxed italic"
+                    style={{
+                      fontFamily: '"EB Garamond", Georgia, serif',
+                      color: 'rgba(101,67,33,0.6)',
+                    }}
+                  >
+                    {gift.scriptureText}
+                  </p>
+                </div>
+
+                {/* Bottom aged border */}
+                <div style={{ height: '2px', background: 'linear-gradient(90deg, transparent 0%, rgba(139,90,43,0.35) 30%, rgba(139,90,43,0.35) 70%, transparent 100%)' }} />
               </div>
 
-              {/* Main Devotional Text - scrollable */}
-              <div className="flex-1 flex items-center justify-center text-center px-6 py-4">
-                <p className="romance-font italic text-lg leading-[1.8] text-amber-50/90 drop-shadow-2xl">
-                  "{gift.devotionalText}"
-                </p>
-              </div>
-
-              {/* Scripture Reference */}
-              <div className="text-center px-6 pb-6">
-                <div className="w-8 h-px bg-amber-200/20 mx-auto mb-4"></div>
-                <p className="text-[11px] uppercase tracking-[0.2em] text-amber-200/70 font-medium mb-2">
-                  {gift.scriptureReference}
-                </p>
-                <p className="text-[10px] leading-relaxed text-amber-50/40 italic max-w-[280px] mx-auto">
-                  {gift.scriptureText}
-                </p>
-              </div>
-            </div>
-
-            {/* Fixed bottom section - always visible */}
-            <div className="relative z-10 w-full bg-gradient-to-t from-[#02040a] via-[#02040a]/95 to-transparent pt-6 pb-4">
-              {/* Visualizer */}
-              <div className="flex justify-center mb-4">
+              {/* Audio visualizer */}
+              <div className="flex justify-center">
                 <AudioVisualizer isPlaying={isPlaying} analyzer={analyzer} />
               </div>
+            </div>
 
-              {/* Play Button - prominent */}
-              <div className="flex justify-center mb-6">
+            {/* Fixed bottom controls */}
+            <div className="relative z-10 w-full bg-gradient-to-t from-[#02040a] via-[#02040a]/95 to-transparent pt-4 pb-4 px-5">
+              {/* Play Button */}
+              <div className="flex justify-center mb-5">
                 <button
                   onClick={togglePlay}
                   disabled={!audioReady}
@@ -1365,7 +1452,7 @@ const App: React.FC = () => {
               </div>
 
               {/* Action Buttons */}
-              <div className="flex gap-3 px-4">
+              <div className="flex gap-3 mb-3">
                 <button
                   onClick={handleReset}
                   className="flex-1 py-3 border border-amber-100/10 rounded-full text-[9px] uppercase tracking-[0.2em] font-bold text-amber-100/40 hover:text-amber-100/60 hover:border-amber-100/20 transition-all flex items-center justify-center gap-2"
@@ -1387,9 +1474,179 @@ const App: React.FC = () => {
                   <Download size={11} /> Save This Word
                 </button>
               </div>
+
+              {/* Novena invitation */}
+              <div className="flex justify-center">
+                <button
+                  onClick={() => setView('novena')}
+                  className="text-[9px] uppercase tracking-[0.15em] text-amber-100/25 hover:text-amber-100/50 transition-colors py-1"
+                >
+                  Begin a Novena with Padre Pio ›
+                </button>
+              </div>
             </div>
           </div>
         )}
+
+        {/* SCREEN 5: NOVENA TRACKER */}
+        {view === 'novena' && (
+          <div className="flex-1 flex flex-col items-center animate-in fade-in duration-700 overflow-y-auto px-5 py-6">
+
+            {/* Header */}
+            <div className="w-full max-w-sm mb-6">
+              <div className="flex items-center justify-between mb-1">
+                <h2 className="font-['Cinzel'] text-[13px] tracking-[0.25em] font-bold uppercase text-amber-100/80">
+                  Novenas
+                </h2>
+                <button
+                  onClick={() => setView('welcome')}
+                  className="text-[9px] uppercase tracking-[0.15em] text-amber-100/30 hover:text-amber-100/60 transition-colors"
+                >
+                  ← Return
+                </button>
+              </div>
+              <p className="text-[10px] text-amber-100/30 leading-relaxed">
+                Nine days of prayer. Padre Pio prayed for every soul who asked.
+              </p>
+            </div>
+
+            {/* Novena cards */}
+            <div className="w-full max-w-sm space-y-4">
+              {(novenaData as any[]).map((novena: any) => {
+                const progress = novenaProgress[novena.id];
+                const currentDay = progress?.day || 0;
+                const isComplete = currentDay >= 9;
+                const dayData = currentDay > 0 ? novena.days[currentDay - 1] : null;
+                const isActive = activeNovenaId === novena.id;
+
+                return (
+                  <div
+                    key={novena.id}
+                    className="rounded-2xl border border-amber-500/15 overflow-hidden"
+                    style={{ background: 'rgba(251,191,36,0.04)' }}
+                  >
+                    {/* Novena header */}
+                    <div className="px-5 pt-5 pb-3">
+                      <div className="flex items-start justify-between gap-3">
+                        <div className="flex-1">
+                          <h3 className="font-['Cinzel'] text-[11px] tracking-[0.15em] font-bold text-amber-100/80 mb-0.5">
+                            {novena.title}
+                          </h3>
+                          <p className="text-[9px] text-amber-100/35 leading-relaxed">{novena.subtitle}</p>
+                        </div>
+                        {isComplete && (
+                          <span className="text-[8px] uppercase tracking-widest text-emerald-400/60 font-bold shrink-0">
+                            ✓ Complete
+                          </span>
+                        )}
+                      </div>
+
+                      {/* 9-day progress dots */}
+                      {currentDay > 0 && (
+                        <div className="flex gap-1.5 mt-3">
+                          {Array.from({ length: 9 }, (_, i) => (
+                            <div
+                              key={i}
+                              className="w-5 h-1.5 rounded-full transition-all"
+                              style={{
+                                background: i < currentDay
+                                  ? 'rgba(251,191,36,0.7)'
+                                  : 'rgba(251,191,36,0.12)',
+                              }}
+                            />
+                          ))}
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Active day content */}
+                    {isActive && dayData && !isComplete && (
+                      <div
+                        className="mx-4 mb-4 rounded-xl p-4"
+                        style={{
+                          background: 'linear-gradient(160deg, #f7ecd4 0%, #ede2be 100%)',
+                          boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.3)',
+                        }}
+                      >
+                        <div className="flex items-center justify-between mb-3">
+                          <span className="text-[8px] uppercase tracking-[0.3em] font-bold" style={{ color: 'rgba(101,67,33,0.55)' }}>
+                            Day {currentDay} of 9
+                          </span>
+                          <span className="text-[8px] uppercase tracking-[0.2em]" style={{ color: 'rgba(101,67,33,0.4)' }}>
+                            {dayData.intention}
+                          </span>
+                        </div>
+                        <p
+                          className="italic text-[12px] leading-[1.85] mb-3"
+                          style={{ fontFamily: '"EB Garamond", Georgia, serif', color: '#3d2b1a' }}
+                        >
+                          {dayData.prayer}
+                        </p>
+                        {dayData.scripture && (
+                          <div className="border-t pt-3" style={{ borderColor: 'rgba(139,90,43,0.15)' }}>
+                            <p className="text-[9px] font-bold uppercase tracking-[0.15em] mb-1" style={{ color: 'rgba(101,67,33,0.6)' }}>
+                              {dayData.scripture.reference}
+                            </p>
+                            <p className="italic text-[10px] leading-relaxed" style={{ fontFamily: '"EB Garamond", Georgia, serif', color: 'rgba(101,67,33,0.55)' }}>
+                              {dayData.scripture.text}
+                            </p>
+                          </div>
+                        )}
+                        <button
+                          onClick={() => advanceNovenaDay(novena.id)}
+                          className="mt-4 w-full py-2.5 rounded-full text-[9px] uppercase tracking-[0.2em] font-bold transition-all"
+                          style={{ background: 'rgba(139,90,43,0.15)', color: 'rgba(101,67,33,0.8)' }}
+                        >
+                          {currentDay < 9 ? `Mark Day ${currentDay} Complete →` : 'Novena Complete ✓'}
+                        </button>
+                      </div>
+                    )}
+
+                    {/* Completed message */}
+                    {isActive && isComplete && (
+                      <div className="mx-4 mb-4 px-4 py-3 rounded-xl text-center" style={{ background: 'rgba(16,185,129,0.06)', border: '1px solid rgba(16,185,129,0.15)' }}>
+                        <p className="text-[10px] text-emerald-300/70 leading-relaxed italic">
+                          "{novena.closing}"
+                        </p>
+                        <button
+                          onClick={() => resetNovena(novena.id)}
+                          className="mt-3 text-[8px] uppercase tracking-[0.15em] text-emerald-400/40 hover:text-emerald-400/70 transition-colors"
+                        >
+                          Begin Again
+                        </button>
+                      </div>
+                    )}
+
+                    {/* Action footer */}
+                    <div className="px-5 pb-4">
+                      {currentDay === 0 ? (
+                        <button
+                          onClick={() => { startNovena(novena.id); setActiveNovenaId(novena.id); }}
+                          className="w-full py-2.5 border border-amber-500/20 rounded-full text-[9px] uppercase tracking-[0.2em] font-bold text-amber-100/50 hover:text-amber-100/80 hover:border-amber-500/40 transition-all"
+                        >
+                          Begin This Novena
+                        </button>
+                      ) : !isActive ? (
+                        <button
+                          onClick={() => setActiveNovenaId(novena.id)}
+                          className="w-full py-2.5 border border-amber-500/15 rounded-full text-[9px] uppercase tracking-[0.15em] text-amber-100/40 hover:text-amber-100/60 transition-all"
+                        >
+                          Day {currentDay} — Continue →
+                        </button>
+                      ) : null}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            {/* Opening prayer note */}
+            <p className="w-full max-w-sm text-center text-[9px] text-amber-100/20 leading-relaxed mt-6 italic">
+              "Pray, hope, and don't worry. Worry is useless. God is merciful and will hear your prayer." — St. Padre Pio
+            </p>
+          </div>
+        )}
+
       </div>
     </div>
   );

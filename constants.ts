@@ -137,4 +137,5 @@ export type ViewState =
   | 'diagnosis'   // Screen 2: Soul analysis
   | 'anchor'      // Screen 3: Scripture preview
   | 'whisper'     // Screen 4: Final reveal
-  | 'input';      // Fallback: Text input mode
+  | 'input'       // Fallback: Text input mode
+  | 'novena';     // Screen 5: Novena tracker
