@@ -21,9 +21,7 @@
 import { readFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
-import * as dotenv from 'dotenv';
-
-dotenv.config();
+// No dotenv import needed — use: node --env-file=.env scripts/embed-corpus.js
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const dataDir = join(__dirname, '..', 'data');
@@ -35,8 +33,8 @@ const RAW_HOST = process.env.VITE_PINECONE_HOST || process.env.PINECONE_HOST || 
 const PINECONE_HOST = 'https://' + RAW_HOST.replace(/^https?:\/\//, '');
 const NAMESPACE = 'padre-pio';
 
-// NOTE: text-embedding-004 requires v1 (not v1beta)
-const EMBED_URL = `https://generativelanguage.googleapis.com/v1/models/text-embedding-004:batchEmbedContents?key=${GEMINI_API_KEY}`;
+// gemini-embedding-001 is available on v1beta batchEmbedContents
+const EMBED_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents?key=${GEMINI_API_KEY}`;
 
 const BATCH_SIZE = 50; // Gemini batch limit
 const UPSERT_BATCH = 100; // Pinecone upsert batch limit
@@ -119,8 +117,9 @@ function loadVaultVerses() {
 
 async function embedBatch(texts) {
   const requests = texts.map(t => ({
-    model: 'models/text-embedding-004',
-    content: { parts: [{ text: t }] }
+    model: 'models/gemini-embedding-001',
+    content: { parts: [{ text: t }] },
+    outputDimensionality: 1024,
   }));
 
   const res = await fetch(EMBED_URL, {
