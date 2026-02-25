@@ -1378,7 +1378,7 @@ const App: React.FC = () => {
                       const url = createMp3Url(gift.audioBase64);
                       const a = document.createElement('a');
                       a.href = url;
-                      a.download = 'still-small-voice.mp3';
+                      a.download = 'padre-pio-prayer.mp3';
                       a.click();
                     }
                   }}
