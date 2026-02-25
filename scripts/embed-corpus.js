@@ -30,7 +30,9 @@ const dataDir = join(__dirname, '..', 'data');
 
 const GEMINI_API_KEY = process.env.VITE_GEMINI_API_KEY;
 const PINECONE_API_KEY = process.env.VITE_PINECONE_API_KEY || process.env.PINECONE_API_KEY;
-const PINECONE_HOST = process.env.VITE_PINECONE_HOST || process.env.PINECONE_HOST;
+// Normalize host: strip protocol if present then re-add (matches pinecone-search.js behavior)
+const RAW_HOST = process.env.VITE_PINECONE_HOST || process.env.PINECONE_HOST || '';
+const PINECONE_HOST = 'https://' + RAW_HOST.replace(/^https?:\/\//, '');
 const NAMESPACE = 'padre-pio';
 
 // NOTE: text-embedding-004 requires v1 (not v1beta)

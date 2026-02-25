@@ -61,7 +61,7 @@ export default async function handler(req, res) {
     const pineconeBody = {
       vector: queryVector,
       topK: Math.min(topK, 10), // Cap at 10 results
-      namespace: 'kjv',
+      namespace: 'padre-pio',
       includeMetadata: true
     };
 
