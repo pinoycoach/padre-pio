@@ -567,16 +567,9 @@ const App: React.FC = () => {
       setGift(prev => prev ? ({ ...prev, audioBase64 }) : null);
       setView('whisper');
     } catch (error: any) {
-      console.error('Inworld TTS Audio generation error:', error);
-      let errorMessage = 'Failed to generate audio whisper. Please try again.';
-      if (error && error.message) {
-        errorMessage = `Audio generation error: ${error.message}`;
-        if (error.response) { // Check if it's a fetch-like error with a response object
-          errorMessage += ` (Status: ${error.response.status}, ${error.response.statusText})`;
-        }
-      }
-      setCameraError(errorMessage); // Using cameraError state to display general errors
-      setView('anchor');
+      // TTS failure is non-fatal — log silently and show prayer text without audio
+      console.warn('[TTS] Audio unavailable, showing text-only prayer:', error?.message || error);
+      setView('whisper');
     }
   };
 
