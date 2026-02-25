@@ -49,7 +49,8 @@ function loadQuotes() {
     text: q.text,
     metadata: {
       type: 'quote',
-      reference: q.id,
+      reference: `St. Padre Pio — ${q.source}`,  // human-readable reference
+      text: q.text,                                // stored for retrieval display
       source: q.source,
       themes: q.themes.join(','),
       keywords: q.keywords.join(','),
@@ -64,7 +65,8 @@ function loadDRVerses() {
     text: `${v.reference} — ${v.text}`,
     metadata: {
       type: 'verse',
-      reference: v.reference,
+      reference: v.reference,   // e.g. "Ps 23:1"
+      text: v.text,             // just the verse text (not the reference prefix)
       source: 'Douay-Rheims Bible',
       themes: v.themes.join(','),
       keywords: v.keywords.join(','),
@@ -79,7 +81,8 @@ function loadSaintExcerpts() {
     text: `${e.saint}: ${e.text}`,
     metadata: {
       type: 'excerpt',
-      reference: e.id,
+      reference: e.saint,       // e.g. "St. Thérèse of Lisieux"
+      text: e.text,             // the excerpt text
       source: e.source,
       saint: e.saint,
       themes: e.themes.join(','),
@@ -99,7 +102,8 @@ function loadVaultVerses() {
         text: `${verse.reference} — ${verse.text}`,
         metadata: {
           type: 'verse',
-          reference: verse.reference,
+          reference: verse.reference,                    // e.g. "Ps 23:1"
+          text: verse.text,                              // just the verse text
           source: 'Douay-Rheims Bible (Verified Vault)',
           archetype: archetypeKey,
           whisper_tone: verse.whisper_tone,
