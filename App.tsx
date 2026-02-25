@@ -559,7 +559,7 @@ const App: React.FC = () => {
         audioText,
         emotionTags,
         {
-          apiKeyBase64: import.meta.env.VITE_INWORLD_API_KEY_BASE64,
+          apiKeyBase64: import.meta.env.VITE_INWORLD_API_KEY,
           voice: import.meta.env.VITE_INWORLD_VOICE_ID,
         }
       );
