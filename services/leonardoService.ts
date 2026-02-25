@@ -443,7 +443,7 @@ Respond with valid JSON only:
 
   const burdenDetection: BurdenDetection = {
     maskedPain: combined.maskedPain || false,
-    sfumatoCoefficient: combined.sfumatoCoefficient || 50,
+    sfumatoCoefficient: combined.sfumatoCoefficient ?? 0,
     suppressionIndicators: combined.suppressionIndicators || [],
     ministryRecommendation: combined.ministryRecommendation || 'surface'
   };

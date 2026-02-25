@@ -394,7 +394,8 @@ const App: React.FC = () => {
       // Pass feeling context to enable Authenticity Bridge (Agent 10) - compares stated vs facial emotion
       const analysis = await analyzeDeepSoul(imageData, feelingContext, cloudVision);
       setDeepAnalysis(analysis);
-      if (analysis.ministryDepth === 'crisis') setShowCrisisBanner(true);
+      // Camera path does NOT trigger crisis banner — facial analysis can't reliably detect
+      // suicidal ideation. Crisis banner only fires from text/voice pre-flight regex.
 
       console.log('Deep Analysis:', {
         archetype: analysis.archetype,
