@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect, useCallback } from "react";
 import { generateWhisperImage } from './services/geminiService';
-import { generateInworldTTSAudio } from './services/inworldService';
+import { generateElevenLabsTTSAudio } from './services/elevenlabsService';
 
 import { generateGroundedWhisper, getArchetypeMetadata } from './services/librarianService';
 import { analyzeDeepSoul, analyzeTextDeepSoul } from './services/leonardoService';
@@ -389,6 +389,18 @@ const App: React.FC = () => {
     }
   }, [captureImage, stopCamera]);
 
+  // ─── CLOUD VISION HIERARCHY CONTRACT ────────────────────────────────────────
+  // Cloud Vision runs BEFORE the Leonardo Engine but is never a routing gate.
+  // Its output is passed as enrichment data INTO analyzeDeepSoul().
+  // The 4 agents ALWAYS run regardless of what CV detects.
+  //
+  // A fake smile producing "joy" in CV does NOT skip analysis — instead,
+  // Agent 10 (Authenticity Bridge) receives it as objective baseline and
+  // compares it against the stated feeling to detect incongruence.
+  //
+  // NEVER add: if (cloudVision.joy > X) return consoledSoulResponse()
+  // ─────────────────────────────────────────────────────────────────────────────
+
   // Process captured image through the Sacred Loop with DEEP ANALYSIS
   const processCapture = async (imageData: string) => {
     setView('diagnosis');
@@ -563,20 +575,11 @@ const App: React.FC = () => {
 
     try {
       // Format audio text with natural pause (using ellipsis/period) between prayer and scripture
-      // No emotion tags - just clean, natural speech
       const audioText = `${gift.devotionalText} ... From ${gift.scriptureReference}. "${gift.scriptureText}"`;
-      const emotionTags = ''; // Clean speech, no sound effects
 
       console.log('Audio text for TTS:', audioText);
 
-      const audioBase64 = await generateInworldTTSAudio(
-        audioText,
-        emotionTags,
-        {
-          apiKeyBase64: import.meta.env.VITE_INWORLD_API_KEY,
-          voice: import.meta.env.VITE_INWORLD_VOICE_ID,
-        }
-      );
+      const audioBase64 = await generateElevenLabsTTSAudio(audioText);
 
       setGift(prev => prev ? ({ ...prev, audioBase64 }) : null);
       setView('whisper');
