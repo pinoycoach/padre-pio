@@ -18,10 +18,10 @@ import {
 import {
   Sparkles, Play, Pause, Volume2, Download, Heart, ImageDown,
   Camera, RefreshCw, Type, Eye, Shield, AlertTriangle, Activity,
-  Mic, Square, BookOpen
+  Mic, Square, BookOpen, Share2
 } from 'lucide-react';
 import { processAudioWithGemini, createAudioRecorder } from './services/audioService';
-import { downloadParchmentCard } from './services/parchmentService';
+import { downloadParchmentCard, generateParchmentImage } from './services/parchmentService';
 import novenaData from './data/novenas.json';
 
 // Crisis detection — pre-flight check before Gemini runs
@@ -52,6 +52,16 @@ const createMp3Url = (base64: string): string => {
     buffer[i] = binaryString.charCodeAt(i);
   }
   return URL.createObjectURL(new Blob([buffer], { type: 'audio/mpeg' }));
+};
+
+// Convert canvas data URL to Blob for Web Share API file attachment
+const dataUrlToBlob = (dataUrl: string): Blob => {
+  const [header, base64] = dataUrl.split(',');
+  const mime = header.match(/:(.*?);/)?.[1] ?? 'image/png';
+  const binary = atob(base64);
+  const bytes = new Uint8Array(binary.length);
+  for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+  return new Blob([bytes], { type: mime });
 };
 
 // Audio Visualizer Component
@@ -587,6 +597,46 @@ const App: React.FC = () => {
       // TTS failure is non-fatal — log silently and show prayer text without audio
       console.warn('[TTS] Audio unavailable, showing text-only prayer:', error?.message || error);
       setView('whisper');
+    }
+  };
+
+  // Share parchment card + padrepio.love link via native mobile share sheet
+  const handleShare = async () => {
+    if (!gift) return;
+
+    const cardData = {
+      devotionalText: gift.devotionalText,
+      scriptureReference: gift.scriptureReference,
+      scriptureText: gift.scriptureText,
+      archetype: deepAnalysis?.archetype,
+    };
+
+    const dataUrl = generateParchmentImage(cardData);
+    const blob = dataUrlToBlob(dataUrl);
+    const file = new File([blob], 'padre-pio-prayer.png', { type: 'image/png' });
+
+    const shareText = `${gift.scriptureReference} — received at padrepio.love`;
+    const shareUrl  = 'https://padrepio.love';
+
+    try {
+      if (navigator.share) {
+        const shareData: ShareData = { title: 'A prayer from Padre Pio', text: shareText, url: shareUrl };
+        // Attach image only if the browser supports file sharing (iOS Safari, modern Android)
+        if (navigator.canShare?.({ ...shareData, files: [file] })) {
+          await navigator.share({ ...shareData, files: [file] });
+        } else {
+          await navigator.share(shareData); // text + URL only fallback
+        }
+      } else {
+        // Desktop: no share API — download the card instead
+        downloadParchmentCard(cardData);
+      }
+    } catch (err: any) {
+      if (err?.name !== 'AbortError') {
+        // Error (not user cancel) — fall back to card download
+        downloadParchmentCard(cardData);
+      }
+      // AbortError = user dismissed share sheet — do nothing
     }
   };
 
@@ -1487,6 +1537,12 @@ const App: React.FC = () => {
                   className="flex-1 py-3 border border-amber-500/20 rounded-full text-[9px] uppercase tracking-[0.2em] font-bold text-amber-100/50 hover:text-amber-100/70 hover:border-amber-500/30 transition-all flex items-center justify-center gap-1.5"
                 >
                   <ImageDown size={10} /> Card
+                </button>
+                <button
+                  onClick={handleShare}
+                  className="flex-1 py-3 border border-amber-500/20 rounded-full text-[9px] uppercase tracking-[0.2em] font-bold text-amber-100/50 hover:text-amber-100/70 hover:border-amber-500/30 transition-all flex items-center justify-center gap-1.5"
+                >
+                  <Share2 size={10} /> Share
                 </button>
                 <button
                   onClick={() => {
