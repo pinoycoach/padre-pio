@@ -75,10 +75,11 @@ export default async function handler(request) {
         body: JSON.stringify({
           text,
           model_id: 'eleven_multilingual_v2',
+          speed: 0.85,            // Slower, more contemplative delivery (range 0.7–1.2)
           voice_settings: {
-            stability: 0.75,
-            similarity_boost: 0.75,
-            style: 0.0,
+            stability: 0.65,       // Slightly less rigid → more natural emotional variation
+            similarity_boost: 0.80, // Strong voice character adherence
+            style: 0.10,           // Small expressive touch without dramatising
             use_speaker_boost: true,
           },
         }),

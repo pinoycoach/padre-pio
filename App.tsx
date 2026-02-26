@@ -1363,16 +1363,20 @@ const App: React.FC = () => {
             {/* Scrollable content */}
             <div className="relative z-10 flex-1 w-full overflow-y-auto flex flex-col items-center justify-center px-5 py-6 gap-5">
 
-              {/* Parchment card */}
+              {/* Parchment card — 9:16 Story format */}
               <div
-                className="w-full max-w-sm rounded-2xl overflow-hidden animate-in fade-in slide-in-from-bottom-4 duration-1000"
+                className="w-full max-w-sm rounded-2xl overflow-hidden flex flex-col animate-in fade-in slide-in-from-bottom-4 duration-1000"
                 style={{
+                  aspectRatio: '9 / 16',
                   background: 'linear-gradient(160deg, #f7ecd4 0%, #f0e2bc 45%, #e9d8a8 100%)',
                   boxShadow: '0 0 0 1px rgba(139,90,43,0.18), 0 12px 48px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.3)',
                 }}
               >
                 {/* Top aged border */}
-                <div style={{ height: '2px', background: 'linear-gradient(90deg, transparent 0%, rgba(139,90,43,0.35) 30%, rgba(139,90,43,0.35) 70%, transparent 100%)' }} />
+                <div style={{ height: '2px', flexShrink: 0, background: 'linear-gradient(90deg, transparent 0%, rgba(139,90,43,0.35) 30%, rgba(139,90,43,0.35) 70%, transparent 100%)' }} />
+
+                {/* Scrollable content — fills space between borders */}
+                <div className="flex-1 overflow-y-auto flex flex-col justify-center">
 
                 {/* Archetype + "Scripture Grounded" */}
                 <div className="flex flex-col items-center pt-5 pb-3 gap-1">
@@ -1429,8 +1433,10 @@ const App: React.FC = () => {
                   </p>
                 </div>
 
+                </div> {/* end scrollable content */}
+
                 {/* Bottom aged border */}
-                <div style={{ height: '2px', background: 'linear-gradient(90deg, transparent 0%, rgba(139,90,43,0.35) 30%, rgba(139,90,43,0.35) 70%, transparent 100%)' }} />
+                <div style={{ height: '2px', flexShrink: 0, background: 'linear-gradient(90deg, transparent 0%, rgba(139,90,43,0.35) 30%, rgba(139,90,43,0.35) 70%, transparent 100%)' }} />
               </div>
 
               {/* Audio visualizer */}
