@@ -16,11 +16,12 @@ import {
   FeelingId
 } from './constants';
 import {
-  Sparkles, Play, Pause, Volume2, Download, Heart,
+  Sparkles, Play, Pause, Volume2, Download, Heart, ImageDown,
   Camera, RefreshCw, Type, Eye, Shield, AlertTriangle, Activity,
-  Mic, Square
+  Mic, Square, BookOpen
 } from 'lucide-react';
 import { processAudioWithGemini, createAudioRecorder } from './services/audioService';
+import { downloadParchmentCard } from './services/parchmentService';
 import novenaData from './data/novenas.json';
 
 // Crisis detection — pre-flight check before Gemini runs
@@ -970,13 +971,21 @@ const App: React.FC = () => {
               </div>
             </div>
 
-            {/* Novena link — subtle, below audio */}
-            <div className="flex justify-center pt-2">
+            {/* Novena card — prominent entry point */}
+            <div className="w-full pt-4">
               <button
                 onClick={() => setView('novena')}
-                className="text-[9px] uppercase tracking-[0.15em] text-amber-100/20 hover:text-amber-100/45 transition-colors"
+                className="w-full py-4 rounded-xl border border-amber-500/15 bg-amber-500/5 hover:bg-amber-500/10 transition-all flex items-center justify-center gap-3 group"
               >
-                🕯️ Begin a Novena with Padre Pio
+                <BookOpen size={16} className="text-amber-300/50 group-hover:text-amber-300/70 transition-colors" />
+                <div className="text-left">
+                  <span className="text-[10px] uppercase tracking-[0.2em] font-bold text-amber-100/60 group-hover:text-amber-100/80 transition-colors block">
+                    9-Day Novena
+                  </span>
+                  <span className="text-[8px] text-amber-100/30 block mt-0.5">
+                    Pray with Padre Pio · Sacred Heart
+                  </span>
+                </div>
               </button>
             </div>
 
@@ -1451,13 +1460,24 @@ const App: React.FC = () => {
                 </button>
               </div>
 
-              {/* Action Buttons */}
-              <div className="flex gap-3 mb-3">
+              {/* Action Buttons — 3 columns */}
+              <div className="flex gap-2 mb-3">
                 <button
                   onClick={handleReset}
-                  className="flex-1 py-3 border border-amber-100/10 rounded-full text-[9px] uppercase tracking-[0.2em] font-bold text-amber-100/40 hover:text-amber-100/60 hover:border-amber-100/20 transition-all flex items-center justify-center gap-2"
+                  className="flex-1 py-3 border border-amber-100/10 rounded-full text-[9px] uppercase tracking-[0.2em] font-bold text-amber-100/40 hover:text-amber-100/60 hover:border-amber-100/20 transition-all flex items-center justify-center gap-1.5"
                 >
-                  <RefreshCw size={11} /> New
+                  <RefreshCw size={10} /> New
+                </button>
+                <button
+                  onClick={() => downloadParchmentCard({
+                    devotionalText: gift.devotionalText,
+                    scriptureReference: gift.scriptureReference,
+                    scriptureText: gift.scriptureText,
+                    archetype: deepAnalysis?.archetype,
+                  })}
+                  className="flex-1 py-3 border border-amber-500/20 rounded-full text-[9px] uppercase tracking-[0.2em] font-bold text-amber-100/50 hover:text-amber-100/70 hover:border-amber-500/30 transition-all flex items-center justify-center gap-1.5"
+                >
+                  <ImageDown size={10} /> Card
                 </button>
                 <button
                   onClick={() => {
@@ -1469,9 +1489,10 @@ const App: React.FC = () => {
                       a.click();
                     }
                   }}
-                  className="flex-[2] py-3 bg-amber-100 text-[#0a0a0a] rounded-full text-[9px] uppercase tracking-[0.2em] font-bold flex items-center justify-center gap-2 hover:bg-white transition-all shadow-lg active:scale-95"
+                  disabled={!gift.audioBase64}
+                  className="flex-1 py-3 bg-amber-100 text-[#0a0a0a] rounded-full text-[9px] uppercase tracking-[0.2em] font-bold flex items-center justify-center gap-1.5 hover:bg-white transition-all shadow-lg active:scale-95 disabled:opacity-30 disabled:cursor-not-allowed"
                 >
-                  <Download size={11} /> Save This Word
+                  <Download size={10} /> Audio
                 </button>
               </div>
 
